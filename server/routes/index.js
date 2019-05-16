@@ -10,8 +10,8 @@ router.get('/', (req, res, next) => {
 
 router.post("/signup", (req,res,next)=>{
   User.register(req.body,req.body.password)
-  .then(user => req.statusCode(200).json(user))
-  .catch(user => req.statusCode(401).json(err))
+  .then(user => res.status(200).json(user))
+  .catch(err => res.status(401).json(err))
 })
 
 router.post ("/login", (req,res,next) =>{

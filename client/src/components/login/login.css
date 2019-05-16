@@ -63,7 +63,7 @@
 .username-button-login {
     border-width: 3px;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(36, 47, 99);
     color:white;
     color:rgb(58, 153, 140);
 }
@@ -71,6 +71,6 @@
 .password-button-login {
     border-width: 3px;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(36, 47, 99);;
     color:rgb(58, 153, 140);
 }

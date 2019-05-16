@@ -8,14 +8,14 @@ const hbs          = require('hbs');
 const mongoose     = require('mongoose');
 const logger       = require('morgan');
 const path         = require('path');
-const session      = require(express-session)
+const session      = require('express-session')
 const passport     = require("./handlers/passport")
 const cors         = require("cors")
 
 
 
 mongoose
-  .connect('mongodb://localhost/server', {useNewUrlParser: true})
+  .connect(process.env.DB, {useNewUrlParser: true})
   .then(x => {
     console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
   })
@@ -30,7 +30,7 @@ const app = express();
 
 app.use(
   session({
-    secret="holi",
+    secret:"s3cr3t",
     saveUnitializated:true,
     resave: true,
     cookie:{ maxAge: 1000 * 60 * 24 }
