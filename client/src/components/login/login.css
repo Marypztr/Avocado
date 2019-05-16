@@ -2,15 +2,14 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
-.back-image{
-    background-image: url("../images/loginBackground.jpg");
+.back-image-login{
+    background-image: url("../../images/loginBackground.jpg");
     background-size: 300%;
     background-position: left top;
-    opacity: 0.8;
+    opacity: 0.9;
     top: 0;
     left: 0;
     bottom: 0;
@@ -19,8 +18,8 @@
     z-index: -2;
 }
 
-.back-color{
-    background-color: #28CC9E;
+.back-color-login{
+    background-color: #F1E4E8;
     background-position: center top;
     opacity: 0.6;
     top: 0;
@@ -31,20 +30,21 @@
     z-index: -1;
 }
 
-.logo {
-    width: 100px;
-    height: 158.42px;
+.logo2 {
+    width: 80px;
+    height: 130px;
+    margin-top: 150px;
 }
 
-.Buttons{
+.Buttons-login{
     display: flex;
     flex-direction: column;
     width: 80%;
     position: absolute;
-    margin-top: 50%;
+    margin-top: 95%;
 }
 
-.Buttons div {
+.Buttons-login div {
     margin-top:10px;
     margin-bottom:10px;
     height: 40px;
@@ -55,16 +55,22 @@
     font-size: 18px;
 }
 
-.login-button {
+.login-button-login {
+    background: white;
+    color: #28CC9E;
+
+}
+.username-button-login {
     border-width: 3px;
     border-style: solid;
     border-color: white;
     color:white;
-    text-shadow: 2px 2px 4px black;
-
+    color:rgb(58, 153, 140);
 }
 
-.signup-button {
-    background: white;
-    color: #28CC9E;
+.password-button-login {
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    color:rgb(58, 153, 140);
 }

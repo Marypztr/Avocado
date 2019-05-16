@@ -1,0 +1,85 @@
+.signup-body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.back-image-signup{
+    background-image: url("../../images/loginBackground.jpg");
+    background-size: 300%;
+    background-position: left top;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+
+.back-color-signup{
+    background-color: #F1E4E8;
+    background-position: center top;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.logo2 {
+    width: 80px;
+    height: 130px;
+    margin-top: 150px;
+}
+
+.Buttons-signup{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: absolute;
+    margin-top: 95%;
+}
+
+.Buttons-signup div {
+    margin-top:10px;
+    margin-bottom:10px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.signup-button-signup {
+    background: white;
+    color: #28CC9E;
+
+}
+.username-button-signup {
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    color:white;
+    color:rgb(58, 153, 140);
+}
+
+.password-button-signup {
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    color:rgb(58, 153, 140);
+}
+
+
+.email-button-signup {
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    color:white;
+    color:rgb(58, 153, 140);
+}

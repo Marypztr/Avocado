@@ -1,11 +1,11 @@
 import React, { Component }from "react"
-import logo from "../../src/images/logo4.png"
-import './Login.css';
+import logo from "../../images/logo4.png"
+import "./Auth.css"
 
-export default class Login extends Component {
+export default class Auth extends Component {
     render() {
         return (
-            <div className="login-body">
+            <div className="auth-body">
                 <img src={logo} style={{width: 100}} className="logo" alt="logo"/>
                 <div className="back-image"></div>
                 <div className="back-color"></div>
