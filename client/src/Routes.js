@@ -5,6 +5,7 @@ import Auth from "./components/auth/Auth"
 import Signup from "./components/signup/Signup"
 import Login from "./components/login/Login"
 import Profile from "./components/profile/Profile"
+import Menu from "./components/menu/Mainmenu"
 import Createrecipe from "./components/createRecipe/Createrecipe";
 import Recipedetail from "./components/recipeDetail/Recipedetail"
 
@@ -14,6 +15,7 @@ const Routes =() =>(
         <Route exact path={"/auth"} component={Auth}/>
         <Route exact path={"/signup"} component={Signup}/>
         <Route exact path={"/login"} component={Login}/>
+        <Route exact path={"/menu"} component={Menu}/>
         <Route exact path={"/profile"} component={Profile}/>
         <Route exact path={"/new"} component={Createrecipe}/>
         <Route exact path={"/details"} component={Recipedetail}/>
