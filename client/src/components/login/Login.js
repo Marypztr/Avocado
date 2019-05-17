@@ -2,6 +2,7 @@ import React, { Component }from "react"
 import logo2 from "../../images/logo2.png"
 import "./login.css"
 
+
 export default class Login extends Component {
     render() {
         return (
@@ -10,9 +11,9 @@ export default class Login extends Component {
                 <div className="back-image-login"></div>
                 <div className="back-color-login"></div>
                 <div className="Buttons-login">
-                    <div className="username-button-login">email</div>
-                    <div className="password-button-login">password</div>
-                    <div className="login-button-login">LOGIN</div>
+                    <input className="username-button-login" placeholder ="Email"></input>
+                    <input className="password-button-login" placeholder ="Password"></input>
+                    <div className="login-button-login" >LOGIN</div>
                 </div>
             </div>
         )
