@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Icon, Menu } from 'semantic-ui-react'
 import  logo2  from '../../images/logo3.png'
+import Logout from "../Logout"
 import "./Mainmenu.css"
 
 export default class Mainmenu extends Component {
@@ -14,7 +15,9 @@ export default class Mainmenu extends Component {
       <div className ="menu-body">
       <section className="barrita-d-menu">
         <div>
-          <img className="logo-menu" src={logo2} />
+        <Logout/>
+          <img className="logo-menu" src={logo2}/>
+
         </div>
       </section>
       <section className="button-menu">

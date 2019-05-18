@@ -1,23 +1,18 @@
-const express = require('express');
-const router  = express.Router();
-const User  = require ("../models/User")
-const passport = require ("../handlers/passport")
+const router = require('express').Router()
+const passport = require("../handlers/passport")
+const User = require('../models/User')
 
-/* GET home page */
-router.get('/', (req, res, next) => {
-  res.render('index');
-});
 
-router.post("/signup", (req,res,next)=>{
+router.post('/signup', (req, res, next) => {
   User.register(req.body, req.body.password)
     .then(user => res.status(201).json(user))
-    .catch(err => res.json({err: 'Something went wrong'}))
+    .catch(err => res.json(err))
 })
 
 router.post('/login', (req, res, next) => {
   passport.authenticate('local', (err, user, info) => {
     if(err) return res.status(500).json({ err, infoErr })
-    if(!user) return res.status(401).json({ err: "This user doesn't exist"})
+    if(!user) return res.status(401).json({ err: "NO EXISTES"})
     req.logIn(user, err => {
       if(err) return res.status(500).json(err)
       res.status(200).json({ 
@@ -30,17 +25,16 @@ router.post('/login', (req, res, next) => {
 
 router.get('/logout', (req, res, next) => {
   req.logOut()
-  req.status(200).json({ msg: 'logout backend'})
+  req.status(200).json({ msg: 'logout '})
 })
 
 router.get('/profile', isLogged, (req, res, next) => {
   req.status(200).json(req.user)
 })
 
-
 function isLogged (req, res, next) {
-  if(!req.isAuthenticated()) return res.status(401).json ({ msg: "Oops! seems like you're not logged" })
+  if(!req.isAuthenticated()) return res.status(401).json ({ msg: "Oops! no estas loggeado" })
 }
 
 
-module.exports = router;
+module.exports = router

@@ -13,8 +13,8 @@ export default class Auth extends Component {
                 <div className="back-image"></div>
                 <div className="back-color"></div>
                 <div className="Buttons">
-              <div> <Link to = "/login" className="login-button">  Login </Link> </div> 
-              <div> <Link to ="/signup" className="signup-button">  Sign Up</Link> </div> 
+              <div> <Link to = "/login" className="login-button"> Login </Link> </div> 
+              <div> <Link to ="/signup" className="signup-button"> Sign Up</Link> </div> 
                 </div>
             </div>
         )

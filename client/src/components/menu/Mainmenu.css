@@ -40,3 +40,12 @@
     width: 90px;
     height: 50px;
 }
+
+.logout-button{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding-left: 20px;
+    width:200px;
+
+}

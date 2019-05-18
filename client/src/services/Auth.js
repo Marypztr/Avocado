@@ -12,21 +12,28 @@ class AuthService {
 
   signup = form => {
     return this.service
-    .post ("/auth/signup",form)
+    .post ("/signup",form)
     .then(({ data }) => data)
     .catch (err => err)
   }
 
   login = form => {
     return this.service
-    .post ("/auth/login", form)
+    .post ("/login", form)
     .then(response => response)
     .catch (err => err)
   }
 
+  loogedOut = () =>{
+    return this.service
+    .get("/logout")
+    .then(response => response)
+    .catch ( err => err)
+  }
+
   loggedin = () => {
     return this.service
-    .get ("/auth/loggedin")
+    .get ("/loggedin")
     .then(response => response)
     .catch ( err => err)
   }

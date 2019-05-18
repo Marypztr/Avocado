@@ -11,7 +11,7 @@ const path         = require('path');
 const session      = require('express-session')
 const passport     = require("./handlers/passport")
 const cors         = require("cors")
-
+const auth          = require ("./routes/auth")
 
 
 mongoose
@@ -30,7 +30,7 @@ const app = express();
 
 app.use(
   session({
-    secret:"s3cr3t",
+    secret:process.env.SECRET,
     saveUnitializated:true,
     resave: true,
     cookie:{ maxAge: 1000 * 60 * 24 }
@@ -75,7 +75,7 @@ app.locals.title = 'Express - Generated with IronGenerator';
 
 
 const index = require('./routes/index');
-app.use('/', index);
-
+// app.use('/', index);
+app.use("/", auth)
 
 module.exports = app;
