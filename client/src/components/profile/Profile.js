@@ -7,7 +7,7 @@ export default class Profile extends Component {
     return (
       <div>
         <h1>profile</h1>
-        <Logout/>
+        <Logout {...this.props}/>
       </div>
     )
   }

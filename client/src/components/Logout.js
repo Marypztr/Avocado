@@ -11,7 +11,7 @@ export default class Logout extends Component {
     .then (response =>{
       toastr.success("successful logout!!")
       window.localStorage.clear() 
-      return this.props.history.push('/login')
+      this.props.history.push('/login')
     })
     .catch(err => toastr.error(err))
   }

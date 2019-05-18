@@ -32,6 +32,7 @@ export default class Login extends Component {
         service
         .login(form)
         .then(response => {
+            console.log(response.message)
           if(response.message) return toastr.error('Bu. Algo salió mal. Intentalo de nuevo.')
           window.localStorage.setItem('loggedUser',JSON.stringify(response.data))
           toastr.success('¡Genial! Bienvenido.')
