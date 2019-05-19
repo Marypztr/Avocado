@@ -66,3 +66,21 @@
     background-image: url("../../images/perfil.png");
     background-position: right;
 }
+.button-enter{
+    position: absolute;
+    background: white;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 10px;
+    font-size: 15px;
+
+}
+
+.sticky-menu{
+    position: -webkit-sticky;
+    position:sticky;
+    bottom: 0rem;
+    align-self: flex-end;
+}
