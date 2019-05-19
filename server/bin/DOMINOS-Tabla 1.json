@@ -1,0 +1,5 @@
+[{"_id":{"$oid":"5cddab816cde6668e1d3e288"},"DOMINOS":"Pizza de queso corteza delgada Rebanada mediana","KCAL POR EQUIVALENTE":115,"AOAMAG":"-","GRASA SIN PROTEINA":1,"CEREAL SIN GRASA":1},
+{"_id":{"$oid":"5cddab816cde6668e1d3e289"},"DOMINOS":"Pizaa extravaganza corteza normal Rebanada mediana","KCAL POR EQUIVALENTE":375,"AOAMAG":1,"GRASA SIN PROTEINA":2,"CEREAL SIN GRASA":3},
+{"_id":{"$oid":"5cddab816cde6668e1d3e28a"},"DOMINOS":"Pizza peperoni corteza normal Rebanada mediana","KCAL POR EQUIVALENTE":420,"AOAMAG":1,"GRASA SIN PROTEINA":3,"CEREAL SIN GRASA":3},
+{"_id":{"$oid":"5cddab816cde6668e1d3e28b"},"DOMINOS":"Pizza de queso corteza normal Rebanada mediana","KCAL POR EQUIVALENTE":260,"AOAMAG":1,"GRASA SIN PROTEINA":1,"CEREAL SIN GRASA":2}
+]

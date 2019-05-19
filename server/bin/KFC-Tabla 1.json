@@ -1,0 +1,14 @@
+[{"_id":{"$oid":"5cddab816cde6668e1d3e3b6"},"KFC":"Crispy chicken","KCAL POR EQUIVALENTE":380,"AOABAG":4,"GRASA SIN PROTEINA":2,"CEREAL SIN GRASA":1},
+{"_id":{"$oid":"5cddab816cde6668e1d3e3b7"},"KFC":"Ensalada de col","KCAL POR EQUIVALENTE":215,"AOABAG":"-","GRASA SIN PROTEINA":2,"CEREAL SIN GRASA":"-"},
+{"_id":{"$oid":"5cddab816cde6668e1d3e3b8"},"KFC":"Extra Crispy chichen pechuga","KCAL POR EQUIVALENTE":480,"AOABAG":5,"GRASA SIN PROTEINA":3,"CEREAL SIN GRASA":1},
+{"_id":{"$oid":"5cddab816cde6668e1d3e3b9"},"KFC":"Extra Crispy chichen pierna","KCAL POR EQUIVALENTE":360,"AOABAG":2,"GRASA SIN PROTEINA":4,"CEREAL SIN GRASA":1},
+{"_id":{"$oid":"5cddab816cde6668e1d3e3ba"},"KFC":"Extra Crispy chichen ala","KCAL POR EQUIVALENTE":155,"AOABAG":2,"GRASA SIN PROTEINA":1,"CEREAL SIN GRASA":"-"},
+{"_id":{"$oid":"5cddab816cde6668e1d3e3bb"},"KFC":"Pechuga receta original","KCAL POR EQUIVALENTE":320,"AOABAG":5,"GRASA SIN PROTEINA":1,"CEREAL SIN GRASA":"-"},
+{"_id":{"$oid":"5cddab816cde6668e1d3e3bc"},"KFC":"Tiras de pollo con receta original","KCAL POR EQUIVALENTE":345,"AOABAG":5,"GRASA SIN PROTEINA":"-","CEREAL SIN GRASA":1},
+{"_id":{"$oid":"5cddab816cde6668e1d3e3bd"},"KFC":"Pure de papa con gravy","KCAL POR EQUIVALENTE":115,"AOABAG":"-","GRASA SIN PROTEINA":1,"CEREAL SIN GRASA":1},
+{"_id":{"$oid":"5cddab816cde6668e1d3e3be"},"KFC":"Pierna receta original","KCAL POR EQUIVALENTE":245,"AOABAG":2,"GRASA SIN PROTEINA":3,"CEREAL SIN GRASA":"-"},
+{"_id":{"$oid":"5cddab816cde6668e1d3e3bf"},"KFC":"Popcorn de pollo tamaño regular","KCAL POR EQUIVALENTE":370,"AOABAG":3,"GRASA SIN PROTEINA":3,"CEREAL SIN GRASA":1},
+{"_id":{"$oid":"5cddab816cde6668e1d3e3c0"},"KFC":"Ala receta original","KCAL POR EQUIVALENTE":100,"AOABAG":1,"GRASA SIN PROTEINA":1,"CEREAL SIN GRASA":"-"},
+{"_id":{"$oid":"5cddab816cde6668e1d3e3c1"},"KFC":"Popcorn de pollo tamaño kid","KCAL POR EQUIVALENTE":315,"AOABAG":2,"GRASA SIN PROTEINA":3,"CEREAL SIN GRASA":1},
+{"_id":{"$oid":"5cddab816cde6668e1d3e3c2"},"KFC":"Bisquet","KCAL POR EQUIVALENTE":160,"AOABAG":"-","GRASA SIN PROTEINA":2,"CEREAL SIN GRASA":1}
+]

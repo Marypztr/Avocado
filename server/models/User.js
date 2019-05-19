@@ -4,7 +4,17 @@ const plm = require("passport-local-mongoose")
 const userSchema = new mongoose.Schema(
     {
         name: String,
-        email:String
+        email:String,
+        photoURL:String,
+        form:{
+            weigth:Number,
+            height:Number,
+            age:Number,
+            goal:String,
+            hips:Number,
+            waist:Number
+        }
+        
     },{
         timestamps:true,
         versionKey:false

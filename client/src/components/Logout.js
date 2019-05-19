@@ -19,7 +19,7 @@ export default class Logout extends Component {
   render() {
     return (
        <div className="logout-button" onClick={this.handleLogout}>
-         <i class="power off icon"></i>
+         <i className="power off icon"></i>
        </div>
     )
   }

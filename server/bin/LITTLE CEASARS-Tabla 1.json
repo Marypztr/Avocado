@@ -1,0 +1,5 @@
+[{"_id":{"$oid":"5cddab816cde6668e1d3e46a"},"LITTLE CAESARS":"Pizza de queso corteza regular","KCAL POR EQUIVALENTE":260,"AOAMAG":1,"GRASA SIN PROTEINA":1,"CEREAL SIN GRASA":2,"":""},
+{"_id":{"$oid":"5cddab816cde6668e1d3e46b"},"LITTLE CAESARS":"Pizaa de vegetales y carne corteza regular","KCAL POR EQUIVALENTE":305,"AOAMAG":1,"GRASA SIN PROTEINA":2,"CEREAL SIN GRASA":2,"":""},
+{"_id":{"$oid":"5cddab816cde6668e1d3e46c"},"LITTLE CAESARS":"Pizza de queso corteza delgada","KCAL POR EQUIVALENTE":190,"AOAMAG":1,"GRASA SIN PROTEINA":1,"CEREAL SIN GRASA":1,"":""},
+{"_id":{"$oid":"5cddab816cde6668e1d3e46d"},"LITTLE CAESARS":"Pizaa de pepperoni corteza regular","KCAL POR EQUIVALENTE":260,"AOAMAG":1,"GRASA SIN PROTEINA":1,"CEREAL SIN GRASA":2,"":""}
+]

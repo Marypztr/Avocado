@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Icon, Menu } from 'semantic-ui-react'
-import  logo2  from '../../images/logo3.png'
+import  logo2  from '../../images/logoTexto.png'
 import Logout from "../Logout"
 import "./Mainmenu.css"
 
@@ -21,19 +21,19 @@ export default class Mainmenu extends Component {
         </div>
       </section>
       <section className="button-menu">
-        <div>
+        <div className="button-recipe">
           <p><Icon name='food' />Recetas</p>
         </div>
-        <div>
+        <div className="button-reto">
           <p><Icon name='calendar alternate' />Retos semanales</p>
         </div>
-        <div>
+        <div className ="button-ejercicio">
           <p><Icon name='heart' />Ejercicios</p>
         </div>
-        <div>
+        <div className="button-shops">
           <p><Icon name='shopping basket' />Tiendas saludables</p>
         </div>
-        <div>
+        <div className="button-profile">
           <p><Icon name='user circle' />Perfil</p>
           
         </div>
