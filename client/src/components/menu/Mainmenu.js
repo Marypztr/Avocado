@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom"
-import { Icon, Menu } from 'semantic-ui-react'
+import { Icon } from 'semantic-ui-react'
 import  logo2  from '../../images/logoTexto.png'
 import Logout from "../Logout"
 import "./Mainmenu.css"
@@ -18,7 +18,7 @@ export default class Mainmenu extends Component {
       <section className="barrita-d-menu">
         <div>
         <Logout/>
-          <img className="logo-menu" src={logo2}/>
+          <img className="logo-menu" src={logo2} alt="logo"/>
 
         </div>
       </section>
@@ -41,7 +41,7 @@ export default class Mainmenu extends Component {
         </div>
         <div className="button-profile">
           <p><Icon name='user circle' />Perfil</p>
-          <button className="button-enter">Entrar</button>
+          <button className="button-enter"><Link to ="/profile">Entrar</Link></button>
           
         </div>
       </section>

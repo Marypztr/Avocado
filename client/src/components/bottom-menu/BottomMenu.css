@@ -11,6 +11,14 @@
 
 }
 
+.link{
+  color:white;
+}
+
+.link:visited{
+  color:white;
+}
+
 .bottom-menu div{
   display: flex;
   flex-direction: column;

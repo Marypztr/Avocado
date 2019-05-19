@@ -4,7 +4,7 @@ import AuthService from "../../services/Auth"
 import "./signup.css"
 import toastr from "toastr"
 
-const service = new AuthService
+const service = new AuthService()
 
 export default class Signup extends Component {
     state = {

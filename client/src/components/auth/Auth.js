@@ -1,8 +1,6 @@
 import React, { Component }from "react"
 import { Link } from "react-router-dom"
 import logo from "../../images/logo4.png"
-import login from "../login/Login"
-import signup from "../signup/Signup"
 import "./Auth.css"
 
 export default class Auth extends Component {

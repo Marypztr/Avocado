@@ -1,18 +1,17 @@
 import React, { Component }from "react";
 import BottomMenu from '../bottom-menu/BottomMenu';
-import { PureComponent } from 'react';
-import {
-  PieChart, Pie, Sector, Cell,
-} from 'recharts';
+import { PieChart, Pie, Cell} from 'recharts';
+import './Recipedetail.css';
+import  logo2  from '../../images/logoTexto.png';
+
 
 const data = [
-  { name: 'Group A', value: 400 },
-  { name: 'Group B', value: 300 },
-  { name: 'Group C', value: 300 },
-  { name: 'Group D', value: 200 },
+  { name: 'Proteina', value: 400 },
+  { name: 'Grasa', value: 300 },
+  { name: 'Carbohidratos', value: 300 },
 ];
 
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
+const COLORS = ['#0088FE', '#00C49F', '#FFBB28'];
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({
@@ -35,38 +34,52 @@ export default class Recipedetail extends Component {
   render() {
     return (
       <div>
-        <h2>Title</h2>
-        <PieChart width={400} height={400}>
-        <Pie
-          data={data}
-          cx={200}
-          cy={200}
-          labelLine={false}
-          label={renderCustomizedLabel}
-          outerRadius={80}
-          fill="#8884d8"
-          dataKey="value"
-        >
-          {
-            data.map((entry, index) => <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />)
-          }
-        </Pie>
-      </PieChart>
-        <section>
-          <div>
-            <img src=""/>
-          </div>
-          <div>
-            <p>Yolo Crayolo</p>
-          </div>
-          <div>
-            <div>
-              
+        <div className="card-position">
+          <section>
+            <img className="logo-menu" src={logo2} alt="logo"/>
+          </section>
+          <h2>Title</h2>
+          <section className="recipe-card">
+            <div className="food-picture">
+              <img src="https://amp.insider.com/images/5ad792ffbd967146008b45d9-960-720.jpg" alt="recipe" width="120px" height="120px"/>
             </div>
-            <div></div>
-            <div></div>
-          </div>
-        </section>
+            <div className="recipe-description">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div  className="chart">
+              <PieChart width={200} height={200}>
+                <Pie
+                  data={data}
+                  cx={100}
+                  cy={100}
+                  labelLine={false}
+                  label={renderCustomizedLabel}
+                  outerRadius={80}
+                  fill="#8884d8"
+                  dataKey="value"
+                >
+                  {
+                    data.map((entry, index) => <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />)
+                  }
+                </Pie>
+              </PieChart>
+              <div className="values">
+              <div className="single-value">
+                <div className="proteina"></div>
+                <p>  Proteina</p>
+              </div>
+              <div className="single-value">
+                <div className="grasa"></div>
+                <p>  Grasa</p>
+              </div>
+              <div className="single-value">
+                <div className="carbohidrato"></div>
+                <p>  Carbohidrato</p>
+              </div>
+            </div>
+            </div>
+          </section>
+        </div>
         <div className="sticky-menu">
           <BottomMenu/>
         </div>

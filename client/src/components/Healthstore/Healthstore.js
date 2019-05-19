@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import BottomMenu from '../bottom-menu/BottomMenu';
 import HealthstoreList from '../JSON/Heatlhstore.json';
-import { Card, Image, Rating, Placeholder, Fragment } from 'semantic-ui-react';
+import { Card, Image, Rating, Placeholder } from 'semantic-ui-react';
 import './Healthstore.css';
 
 export default class Healthstore extends Component {

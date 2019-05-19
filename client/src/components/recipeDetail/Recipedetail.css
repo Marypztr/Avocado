@@ -1,0 +1,82 @@
+.recipe-card{
+  margin-top:50px;
+  margin-bottom: 50px;
+  width: 95%;
+  height: 650px;
+  background: rgb(249,252,249);
+  background: radial-gradient(circle, rgba(249,252,249,1) 30%, rgba(181,233,105,1) 100%);    border-radius: 8px;
+}
+
+.food-picture {
+  margin-top: -40px;
+}
+
+.food-picture img {
+  border-radius: 50%;
+}
+
+.card-position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe-description{
+  display: flex;
+  justify-content: center;
+  margin-top:30px;
+
+}
+
+.recipe-card p {
+  text-align: left;
+  width: 85%;
+}
+
+.chart {
+  display: flex;
+  justify-content: space-around;
+}
+
+.values {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top:15px;
+}
+
+.proteina{
+  width: 20px;
+  height: 20px;
+  background: #0088FE;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.grasa{
+  width: 20px;
+  height: 20px;
+  background: #00C49F;
+  border-radius: 50px;
+  margin-right: 10px;
+
+}
+
+.carbohidrato{
+  width: 20px;
+  height: 20px;
+  background: #FFBB28;
+  border-radius: 50px;
+  margin-right: 10px;
+
+}
+
+
