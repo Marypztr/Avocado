@@ -39,8 +39,8 @@ function isLogged (req, res, next) {
 router.post('/createRecipe', (req,res,next)=>{
   const recipe = req.body
   Recipes.create(recipe)
-    .then(recipes=>res.send(Recipes)
-    .catch(err => err))
+    .then(Recipes=>res.send(Recipes)
+    .catch(err => next(err)))
 })
 
 module.exports = router
