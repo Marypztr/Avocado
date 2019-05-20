@@ -1,7 +1,7 @@
 const router = require('express').Router()
 const passport = require("../handlers/passport")
 const User = require('../models/User')
-
+const Recipes = require("../models/Recipes")
 
 router.post('/signup', (req, res, next) => {
   User.register(req.body, req.body.password)
@@ -36,5 +36,11 @@ function isLogged (req, res, next) {
   if(!req.isAuthenticated()) return res.status(401).json ({ msg: "Oops! no estas loggeado" })
 }
 
+router.post('/createRecipe', (req,res,next)=>{
+  const recipe = req.body
+  Recipes.create(recipe)
+    .then(recipes=>res.send(Recipes)
+    .catch(err => err))
+})
 
 module.exports = router
