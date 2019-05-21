@@ -4,12 +4,13 @@ import HealthstoreList from '../JSON/Heatlhstore.json';
 import { Card, Image, Rating, Placeholder } from 'semantic-ui-react';
 import './Healthstore.css';
 
+
 export default class Healthstore extends Component {
 
   state = {
     stores:[],
     loading: true
-  }
+  } 
   
   render() {
     const { loading } = this.state
@@ -42,12 +43,15 @@ export default class Healthstore extends Component {
                   </Placeholder>
                 ) : (
                   <div>
-                  <Card.Header>{e.name}</Card.Header>
-                  <Card.Meta>
+                  <Card.Header className="challenge-name">{e.name}</Card.Header>
+                  <Card.Meta className="duration-challenge">
                     <span className='date'>{e.phone}</span>
                   </Card.Meta>
                   <Card.Description>
-                    {e.site}
+                    
+                  <a href={e.site} target="_blanks">
+                  <button className="button-video">Entrar</button>
+                  </a>
                   </Card.Description>
                   </div>
                 )}

@@ -1,9 +1,7 @@
 {
   "foods":[
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dc9f"
-        },
+
         "ALIMENTOS":"Agua",
         "Cantidad sugerida":1.0,
         "Unidad":"taza",
@@ -16,9 +14,7 @@
         "Sodio (mg)":"7,1"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dca0"
-        },
+
         "ALIMENTOS":"Albahaca deshidratada",
         "Cantidad sugerida":1.5,
         "Unidad":"cucharadita",
@@ -31,9 +27,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dca1"
-        },
+
         "ALIMENTOS":"Albahaca molida",
         "Cantidad sugerida":1.5,
         "Unidad":"cucharadita",
@@ -46,9 +40,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dca2"
-        },
+
         "ALIMENTOS":"Alcaparras",
         "Cantidad sugerida":2.0,
         "Unidad":"cucharada",
@@ -61,9 +53,7 @@
         "Sodio (mg)":"509,8"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dca3"
-        },
+
         "ALIMENTOS":"Alcaravea",
         "Cantidad sugerida":0.5,
         "Unidad":"cucharadita",
@@ -76,9 +66,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dca4"
-        },
+
         "ALIMENTOS":"Ajo en polvo",
         "Cantidad sugerida":0.5,
         "Unidad":"cucharadita",
@@ -91,9 +79,7 @@
         "Sodio (mg)":"0,5"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dca5"
-        },
+
         "ALIMENTOS":"Anís",
         "Cantidad sugerida":0.5,
         "Unidad":"cucharadita",
@@ -106,9 +92,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dca6"
-        },
+
         "ALIMENTOS":"Arúgula",
         "Cantidad sugerida":1.0,
         "Unidad":"taza",
@@ -121,9 +105,7 @@
         "Sodio (mg)":"3,2"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dca7"
-        },
+
         "ALIMENTOS":"Aspartame",
         "Cantidad sugerida":1.0,
         "Unidad":"sobre",
@@ -136,9 +118,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dca8"
-        },
+
         "ALIMENTOS":"Azafrán",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -151,9 +131,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dca9"
-        },
+
         "ALIMENTOS":"Achiote",
         "Cantidad sugerida":0.25,
         "Unidad":"cucharada",
@@ -166,9 +144,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcaa"
-        },
+
         "ALIMENTOS":"Agua mineral",
         "Cantidad sugerida":1.0,
         "Unidad":"lata",
@@ -181,9 +157,7 @@
         "Sodio (mg)":"74,6"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcab"
-        },
+
         "ALIMENTOS":"Café de grano",
         "Cantidad sugerida":7.0,
         "Unidad":"cucharada",
@@ -196,9 +170,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcac"
-        },
+
         "ALIMENTOS":"Café descafeinado",
         "Cantidad sugerida":1.0,
         "Unidad":"taza",
@@ -211,9 +183,7 @@
         "Sodio (mg)":"5,4"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcad"
-        },
+
         "ALIMENTOS":"Café en polvo",
         "Cantidad sugerida":0.5,
         "Unidad":"cucharada",
@@ -226,9 +196,7 @@
         "Sodio (mg)":"0,8"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcae"
-        },
+
         "ALIMENTOS":"Café descafeinado preparado",
         "Cantidad sugerida":1.0,
         "Unidad":"taza",
@@ -241,9 +209,7 @@
         "Sodio (mg)":"5,4"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcaf"
-        },
+
         "ALIMENTOS":"Café de polvo descafeinado",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -256,9 +222,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcb0"
-        },
+
         "ALIMENTOS":"Café en polvo sabor moka",
         "Cantidad sugerida":2.0,
         "Unidad":"cucharadita",
@@ -271,9 +235,7 @@
         "Sodio (mg)":"2,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcb1"
-        },
+
         "ALIMENTOS":"Café americano",
         "Cantidad sugerida":1.0,
         "Unidad":"taza",
@@ -286,9 +248,7 @@
         "Sodio (mg)":"5,4"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcb2"
-        },
+
         "ALIMENTOS":"Café con azúcar",
         "Cantidad sugerida":1.0,
         "Unidad":"taza",
@@ -301,9 +261,7 @@
         "Sodio (mg)":"5,4"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcb3"
-        },
+
         "ALIMENTOS":"Café express",
         "Cantidad sugerida":"5 1 /2",
         "Unidad":"taza",
@@ -316,9 +274,7 @@
         "Sodio (mg)":"9,9"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcb4"
-        },
+
         "ALIMENTOS":"Café instantáneo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -331,9 +287,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcb5"
-        },
+
         "ALIMENTOS":"Café intantánio preparado",
         "Cantidad sugerida":1.0,
         "Unidad":"taza",
@@ -346,9 +300,7 @@
         "Sodio (mg)":"6,7"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcb6"
-        },
+
         "ALIMENTOS":"Café instantáneo, descafeinado",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -361,9 +313,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcb7"
-        },
+
         "ALIMENTOS":"Café molido",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharada",
@@ -376,9 +326,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcb8"
-        },
+
         "ALIMENTOS":"Café ó té sin azúcar",
         "Cantidad sugerida":1.0,
         "Unidad":"taza",
@@ -391,9 +339,7 @@
         "Sodio (mg)":"2,7"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcb9"
-        },
+
         "ALIMENTOS":"Café sin azúcar",
         "Cantidad sugerida":1.0,
         "Unidad":"taza",
@@ -406,9 +352,7 @@
         "Sodio (mg)":"5,4"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcba"
-        },
+
         "ALIMENTOS":"Caldo de carne concentrado",
         "Cantidad sugerida":0.25,
         "Unidad":"taza",
@@ -421,9 +365,7 @@
         "Sodio (mg)":"450,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcbb"
-        },
+
         "ALIMENTOS":"Caldo",
         "Cantidad sugerida":0.5,
         "Unidad":"taza",
@@ -436,9 +378,7 @@
         "Sodio (mg)":"391,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcbc"
-        },
+
         "ALIMENTOS":"Caldo de pollo",
         "Cantidad sugerida":0.5,
         "Unidad":"taza",
@@ -451,9 +391,7 @@
         "Sodio (mg)":"381,6"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcbd"
-        },
+
         "ALIMENTOS":"Caldo de pollo concentrado",
         "Cantidad sugerida":0.2,
         "Unidad":"taza",
@@ -466,9 +404,7 @@
         "Sodio (mg)":"308,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcbe"
-        },
+
         "ALIMENTOS":"Caldo de pollo enlatado",
         "Cantidad sugerida":0.2,
         "Unidad":"taza",
@@ -481,9 +417,7 @@
         "Sodio (mg)":"308,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcbf"
-        },
+
         "ALIMENTOS":"Caldo de pescado",
         "Cantidad sugerida":0.5,
         "Unidad":"taza",
@@ -496,9 +430,7 @@
         "Sodio (mg)":"391,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcc0"
-        },
+
         "ALIMENTOS":"Caldo de res",
         "Cantidad sugerida":0.5,
         "Unidad":"taza",
@@ -511,9 +443,7 @@
         "Sodio (mg)":"391,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcc1"
-        },
+
         "ALIMENTOS":"Caldo de carne",
         "Cantidad sugerida":0.5,
         "Unidad":"taza",
@@ -526,9 +456,7 @@
         "Sodio (mg)":"391,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcc2"
-        },
+
         "ALIMENTOS":"Canela en polvo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -541,9 +469,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcc3"
-        },
+
         "ALIMENTOS":"Canela",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -556,9 +482,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcc4"
-        },
+
         "ALIMENTOS":"Canela molida",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -571,9 +495,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcc5"
-        },
+
         "ALIMENTOS":"Cardamomo molido",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -586,9 +508,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcc6"
-        },
+
         "ALIMENTOS":"Cáscara de limón",
         "Cantidad sugerida":5.0,
         "Unidad":"cucharadita",
@@ -601,9 +521,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcc7"
-        },
+
         "ALIMENTOS":"Cáscara de naranja",
         "Cantidad sugerida":2.0,
         "Unidad":"cucharadita",
@@ -616,9 +534,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcc8"
-        },
+
         "ALIMENTOS":"Cebolla deshidratada",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -631,9 +547,7 @@
         "Sodio (mg)":"4,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcc9"
-        },
+
         "ALIMENTOS":"Cebolla en polvo",
         "Cantidad sugerida":0.5,
         "Unidad":"cucharadita",
@@ -646,9 +560,7 @@
         "Sodio (mg)":"0,5"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcca"
-        },
+
         "ALIMENTOS":"Cebollín",
         "Cantidad sugerida":15.0,
         "Unidad":"cucharadita",
@@ -661,9 +573,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dccb"
-        },
+
         "ALIMENTOS":"Cebollín deshidratada",
         "Cantidad sugerida":30.0,
         "Unidad":"cucharadita",
@@ -676,9 +586,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dccc"
-        },
+
         "ALIMENTOS":"Cebollín fresco",
         "Cantidad sugerida":15.0,
         "Unidad":"cucharadita",
@@ -691,9 +599,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dccd"
-        },
+
         "ALIMENTOS":"Cebollín liofilizado",
         "Cantidad sugerida":10.0,
         "Unidad":"cucharada",
@@ -706,9 +612,7 @@
         "Sodio (mg)":"2,5"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcce"
-        },
+
         "ALIMENTOS":"Chicle sin azúcar",
         "Cantidad sugerida":1.0,
         "Unidad":"pieza",
@@ -721,9 +625,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dccf"
-        },
+
         "ALIMENTOS":"Chicle casacabel",
         "Cantidad sugerida":3.0,
         "Unidad":"g",
@@ -736,9 +638,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcd0"
-        },
+
         "ALIMENTOS":"Caldo de res enlatado",
         "Cantidad sugerida":0.33,
         "Unidad":"taza",
@@ -751,9 +651,7 @@
         "Sodio (mg)":"594,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcd1"
-        },
+
         "ALIMENTOS":"Chicle piquín",
         "Cantidad sugerida":3.0,
         "Unidad":"pieza",
@@ -766,9 +664,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcd2"
-        },
+
         "ALIMENTOS":"Chicle piquín molido",
         "Cantidad sugerida":0.5,
         "Unidad":"cucharadita",
@@ -781,9 +677,7 @@
         "Sodio (mg)":"15,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcd3"
-        },
+
         "ALIMENTOS":"Chocolate para repostería sin azúcar",
         "Cantidad sugerida":2.0,
         "Unidad":"g",
@@ -796,9 +690,7 @@
         "Sodio (mg)":"0,3"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcd4"
-        },
+
         "ALIMENTOS":"Canela en raja",
         "Cantidad sugerida":0.2,
         "Unidad":"raja",
@@ -811,9 +703,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcd5"
-        },
+
         "ALIMENTOS":"Cardamomo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -826,9 +716,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcd6"
-        },
+
         "ALIMENTOS":"Clavo en polvo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -841,9 +729,7 @@
         "Sodio (mg)":"5,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcd7"
-        },
+
         "ALIMENTOS":"Clavo entero",
         "Cantidad sugerida":2.0,
         "Unidad":"g",
@@ -856,9 +742,7 @@
         "Sodio (mg)":"5,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcd8"
-        },
+
         "ALIMENTOS":"Chicle en polvo",
         "Cantidad sugerida":3.0,
         "Unidad":"pieza",
@@ -871,9 +755,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcd9"
-        },
+
         "ALIMENTOS":"Clavo molido",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -886,9 +768,7 @@
         "Sodio (mg)":"5,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcda"
-        },
+
         "ALIMENTOS":"Clight",
         "Cantidad sugerida":3.0,
         "Unidad":"sobre",
@@ -901,9 +781,7 @@
         "Sodio (mg)":"6,5"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcdb"
-        },
+
         "ALIMENTOS":"Clavo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -916,9 +794,7 @@
         "Sodio (mg)":"5,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcdc"
-        },
+
         "ALIMENTOS":"Clavo de olor",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -931,9 +807,7 @@
         "Sodio (mg)":"5,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcdd"
-        },
+
         "ALIMENTOS":"Cocacola de dieta",
         "Cantidad sugerida":1.0,
         "Unidad":"lata",
@@ -946,9 +820,7 @@
         "Sodio (mg)":"3,9"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcde"
-        },
+
         "ALIMENTOS":"Cocoa en polvo con aspartame",
         "Cantidad sugerida":0.25,
         "Unidad":"cucharada",
@@ -961,9 +833,7 @@
         "Sodio (mg)":"30,8"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcdf"
-        },
+
         "ALIMENTOS":"Cocoa sin azúcar",
         "Cantidad sugerida":0.2,
         "Unidad":"cucharada",
@@ -976,9 +846,7 @@
         "Sodio (mg)":"0,3"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dce0"
-        },
+
         "ALIMENTOS":"Cocoa sin azúcar Hershey",
         "Cantidad sugerida":0.2,
         "Unidad":"cucharada",
@@ -991,9 +859,7 @@
         "Sodio (mg)":"0,3"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dce1"
-        },
+
         "ALIMENTOS":"Cocca Cola Zero",
         "Cantidad sugerida":1.0,
         "Unidad":"lata",
@@ -1006,9 +872,7 @@
         "Sodio (mg)":"7,2"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dce2"
-        },
+
         "ALIMENTOS":"Coca light",
         "Cantidad sugerida":1.0,
         "Unidad":"lata",
@@ -1021,9 +885,7 @@
         "Sodio (mg)":"3,9"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dce3"
-        },
+
         "ALIMENTOS":"Comino",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1036,9 +898,7 @@
         "Sodio (mg)":"3,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dce4"
-        },
+
         "ALIMENTOS":"Comino entetro",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1051,9 +911,7 @@
         "Sodio (mg)":"3,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dce5"
-        },
+
         "ALIMENTOS":"Cocca Cola de dieta",
         "Cantidad sugerida":1.0,
         "Unidad":"lata",
@@ -1066,9 +924,7 @@
         "Sodio (mg)":"3,9"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dce6"
-        },
+
         "ALIMENTOS":"Comino molido",
         "Cantidad sugerida":0.5,
         "Unidad":"cucharadita",
@@ -1081,9 +937,7 @@
         "Sodio (mg)":"2,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dce7"
-        },
+
         "ALIMENTOS":"Concentrado de pollo",
         "Cantidad sugerida":3.0,
         "Unidad":"g",
@@ -1096,9 +950,7 @@
         "Sodio (mg)":"720,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dce8"
-        },
+
         "ALIMENTOS":"Consomé",
         "Cantidad sugerida":0.25,
         "Unidad":"taza",
@@ -1111,9 +963,7 @@
         "Sodio (mg)":"198,8"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dce9"
-        },
+
         "ALIMENTOS":"Consomé de camarón en polvo",
         "Cantidad sugerida":0.33,
         "Unidad":"cucharada",
@@ -1126,9 +976,7 @@
         "Sodio (mg)":"950,4"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcea"
-        },
+
         "ALIMENTOS":"Consomé de pescado",
         "Cantidad sugerida":20.0,
         "Unidad":"g",
@@ -1141,9 +989,7 @@
         "Sodio (mg)":"19,2"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dceb"
-        },
+
         "ALIMENTOS":"Consomé de pollo",
         "Cantidad sugerida":0.25,
         "Unidad":"taza",
@@ -1156,9 +1002,7 @@
         "Sodio (mg)":"190,8"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcec"
-        },
+
         "ALIMENTOS":"Consomé de pollo bajo en grasa",
         "Cantidad sugerida":5.0,
         "Unidad":"cucharada",
@@ -1171,9 +1015,7 @@
         "Sodio (mg)":"120,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dced"
-        },
+
         "ALIMENTOS":"Consomé de pollo desgarsado en polvo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharada",
@@ -1186,9 +1028,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcee"
-        },
+
         "ALIMENTOS":"Consomé de pollo en cubo",
         "Cantidad sugerida":0.33,
         "Unidad":"pieza",
@@ -1201,9 +1041,7 @@
         "Sodio (mg)":"475,2"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcef"
-        },
+
         "ALIMENTOS":"Consomé de pollo en polvo",
         "Cantidad sugerida":0.33,
         "Unidad":"cucharada",
@@ -1216,9 +1054,7 @@
         "Sodio (mg)":"950,4"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcf0"
-        },
+
         "ALIMENTOS":"Consiomé de res",
         "Cantidad sugerida":0.5,
         "Unidad":"taza",
@@ -1231,9 +1067,7 @@
         "Sodio (mg)":"391,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcf1"
-        },
+
         "ALIMENTOS":"Consomé de res condesado",
         "Cantidad sugerida":0.25,
         "Unidad":"taza",
@@ -1246,9 +1080,7 @@
         "Sodio (mg)":"391,2"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcf2"
-        },
+
         "ALIMENTOS":"Consomé de res en cubo",
         "Cantidad sugerida":0.33,
         "Unidad":"pieza",
@@ -1261,9 +1093,7 @@
         "Sodio (mg)":"336,3"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcf3"
-        },
+
         "ALIMENTOS":"Consomé sabor tomate",
         "Cantidad sugerida":2.0,
         "Unidad":"g",
@@ -1276,9 +1106,7 @@
         "Sodio (mg)":"2,7"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcf4"
-        },
+
         "ALIMENTOS":"Consomé en polvo",
         "Cantidad sugerida":0.33,
         "Unidad":"cucharada",
@@ -1291,9 +1119,7 @@
         "Sodio (mg)":"950,4"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcf5"
-        },
+
         "ALIMENTOS":"Consiomé de res en polvo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharada",
@@ -1306,9 +1132,7 @@
         "Sodio (mg)":"2,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcf6"
-        },
+
         "ALIMENTOS":"Consomé de res enlatado",
         "Cantidad sugerida":0.25,
         "Unidad":"taza",
@@ -1321,9 +1145,7 @@
         "Sodio (mg)":"291,2"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcf7"
-        },
+
         "ALIMENTOS":"Cremor tártaro",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1336,9 +1158,7 @@
         "Sodio (mg)":"2,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcf8"
-        },
+
         "ALIMENTOS":"Cubo consomé",
         "Cantidad sugerida":0.25,
         "Unidad":"pieza",
@@ -1351,9 +1171,7 @@
         "Sodio (mg)":"1440,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcf9"
-        },
+
         "ALIMENTOS":"Curry",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1366,9 +1184,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcfa"
-        },
+
         "ALIMENTOS":"Curry en polvo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1381,9 +1197,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcfb"
-        },
+
         "ALIMENTOS":"Dacaf",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1396,9 +1210,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcfc"
-        },
+
         "ALIMENTOS":"Eneldo",
         "Cantidad sugerida":5.0,
         "Unidad":"cucharadita",
@@ -1411,9 +1223,7 @@
         "Sodio (mg)":"4,2"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcfd"
-        },
+
         "ALIMENTOS":"Diet coke",
         "Cantidad sugerida":1.0,
         "Unidad":"taza",
@@ -1426,9 +1236,7 @@
         "Sodio (mg)":"3,9"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcfe"
-        },
+
         "ALIMENTOS":"Diet sprite",
         "Cantidad sugerida":1.0,
         "Unidad":"taza",
@@ -1441,9 +1249,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dcff"
-        },
+
         "ALIMENTOS":"Estragón",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1456,9 +1262,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd00"
-        },
+
         "ALIMENTOS":"Eneldo deshidratado",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1471,9 +1275,7 @@
         "Sodio (mg)":"2,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd01"
-        },
+
         "ALIMENTOS":"Estragón molido",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1486,9 +1288,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd02"
-        },
+
         "ALIMENTOS":"Extracto de vainilla",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1501,9 +1301,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd03"
-        },
+
         "ALIMENTOS":"Estragón seco",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1516,9 +1314,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd04"
-        },
+
         "ALIMENTOS":"Enelo en semilla",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1531,9 +1327,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd05"
-        },
+
         "ALIMENTOS":"Especias para sazonar aves",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1546,9 +1340,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd06"
-        },
+
         "ALIMENTOS":"Flor de jamaica",
         "Cantidad sugerida":1.0,
         "Unidad":"taza",
@@ -1561,9 +1353,7 @@
         "Sodio (mg)":"0,1"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd07"
-        },
+
         "ALIMENTOS":"Gengibre",
         "Cantidad sugerida":3.0,
         "Unidad":"cucharadita",
@@ -1576,9 +1366,7 @@
         "Sodio (mg)":"0,8"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd08"
-        },
+
         "ALIMENTOS":"Gengibre en polvo",
         "Cantidad sugerida":0.5,
         "Unidad":"cucharada",
@@ -1591,9 +1379,7 @@
         "Sodio (mg)":"0,9"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd09"
-        },
+
         "ALIMENTOS":"Gengibre fresco",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharada",
@@ -1606,9 +1392,7 @@
         "Sodio (mg)":"1,3"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd0a"
-        },
+
         "ALIMENTOS":"Grenetina sin sabor",
         "Cantidad sugerida":0.25,
         "Unidad":"sobre",
@@ -1621,9 +1405,7 @@
         "Sodio (mg)":"3,8"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd0b"
-        },
+
         "ALIMENTOS":"Hierbabuena",
         "Cantidad sugerida":10.0,
         "Unidad":"g",
@@ -1636,9 +1418,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd0c"
-        },
+
         "ALIMENTOS":"Hierbas de olor",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1651,9 +1431,7 @@
         "Sodio (mg)":"2,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd0d"
-        },
+
         "ALIMENTOS":"Hierbas finas",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1666,9 +1444,7 @@
         "Sodio (mg)":"2,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd0e"
-        },
+
         "ALIMENTOS":"Gelatina de dieta",
         "Cantidad sugerida":0.25,
         "Unidad":"taza",
@@ -1681,9 +1457,7 @@
         "Sodio (mg)":"28,7"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd0f"
-        },
+
         "ALIMENTOS":"Gelatina sin azúcar preparada",
         "Cantidad sugerida":1.0,
         "Unidad":"taza",
@@ -1696,9 +1470,7 @@
         "Sodio (mg)":"56,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd10"
-        },
+
         "ALIMENTOS":"Hierbas molidas",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1711,9 +1483,7 @@
         "Sodio (mg)":"2,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd11"
-        },
+
         "ALIMENTOS":"Hinojo",
         "Cantidad sugerida":10.0,
         "Unidad":"g",
@@ -1726,9 +1496,7 @@
         "Sodio (mg)":"5,2"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd12"
-        },
+
         "ALIMENTOS":"Hoja de aguacate",
         "Cantidad sugerida":1.0,
         "Unidad":"pieza",
@@ -1741,9 +1509,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd13"
-        },
+
         "ALIMENTOS":"Hojas de laurel",
         "Cantidad sugerida":1.0,
         "Unidad":"pieza",
@@ -1756,9 +1522,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd14"
-        },
+
         "ALIMENTOS":"Jamaica",
         "Cantidad sugerida":1.0,
         "Unidad":"taza",
@@ -1771,9 +1535,7 @@
         "Sodio (mg)":"0,1"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd15"
-        },
+
         "ALIMENTOS":"Jengibre",
         "Cantidad sugerida":3.0,
         "Unidad":"cucharadita",
@@ -1786,9 +1548,7 @@
         "Sodio (mg)":"0,8"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd16"
-        },
+
         "ALIMENTOS":"Jengibre fresco",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharada",
@@ -1801,9 +1561,7 @@
         "Sodio (mg)":"0,8"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd17"
-        },
+
         "ALIMENTOS":"Koll-Aid en polvo sin azúcar",
         "Cantidad sugerida":1.0,
         "Unidad":"sobre",
@@ -1816,7 +1574,7 @@
         "Sodio (mg)":"2,0"
      },
      {
-        "_id": "5cddab806cde6668e1d3dd18",
+
         "ALIMENTOS":"Jengibre rallado",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1829,9 +1587,7 @@
         "Sodio (mg)":"0,3"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd19"
-        },
+
         "ALIMENTOS":"Laurel fresco",
         "Cantidad sugerida":2.0,
         "Unidad":"hoja",
@@ -1844,9 +1600,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd1a"
-        },
+
         "ALIMENTOS":"Laurel troceado",
         "Cantidad sugerida":2.0,
         "Unidad":"cucharadita",
@@ -1859,9 +1613,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd1b"
-        },
+
         "ALIMENTOS":"Levadura comprimida",
         "Cantidad sugerida":0.5,
         "Unidad":"sobre",
@@ -1874,9 +1626,7 @@
         "Sodio (mg)":"2,5"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd1c"
-        },
+
         "ALIMENTOS":"Laurel",
         "Cantidad sugerida":2.0,
         "Unidad":"hoja",
@@ -1889,9 +1639,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd1d"
-        },
+
         "ALIMENTOS":"Levadura en polvo",
         "Cantidad sugerida":0.25,
         "Unidad":"sobre",
@@ -1904,9 +1652,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd1e"
-        },
+
         "ALIMENTOS":"Jengibre molido",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -1919,9 +1665,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd1f"
-        },
+
         "ALIMENTOS":"Levadura fresca",
         "Cantidad sugerida":2.0,
         "Unidad":"g",
@@ -1934,9 +1678,7 @@
         "Sodio (mg)":"2,1"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd20"
-        },
+
         "ALIMENTOS":"Levadura seca",
         "Cantidad sugerida":0.5,
         "Unidad":"sobre",
@@ -1949,9 +1691,7 @@
         "Sodio (mg)":"2,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd21"
-        },
+
         "ALIMENTOS":"Limón",
         "Cantidad sugerida":0.5,
         "Unidad":"pieza",
@@ -1964,9 +1704,7 @@
         "Sodio (mg)":"0,5"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd22"
-        },
+
         "ALIMENTOS":"Limón agrio",
         "Cantidad sugerida":0.5,
         "Unidad":"pieza",
@@ -1979,9 +1717,7 @@
         "Sodio (mg)":"0,3"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd23"
-        },
+
         "ALIMENTOS":"Manzanilla seca",
         "Cantidad sugerida":1.0,
         "Unidad":"bolsa",
@@ -1994,9 +1730,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd24"
-        },
+
         "ALIMENTOS":"Mejorana",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2009,9 +1743,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd25"
-        },
+
         "ALIMENTOS":"Menta",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2024,9 +1756,7 @@
         "Sodio (mg)":"5,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd26"
-        },
+
         "ALIMENTOS":"Limón sin semilla",
         "Cantidad sugerida":0.5,
         "Unidad":"pieza",
@@ -2039,9 +1769,7 @@
         "Sodio (mg)":"0,3"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd27"
-        },
+
         "ALIMENTOS":"Manzanilla fresca",
         "Cantidad sugerida":10.0,
         "Unidad":"G",
@@ -2054,9 +1782,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd28"
-        },
+
         "ALIMENTOS":"Menta fresca",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2069,9 +1795,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd29"
-        },
+
         "ALIMENTOS":"Menta molida",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2084,9 +1808,7 @@
         "Sodio (mg)":"2,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd2a"
-        },
+
         "ALIMENTOS":"Monster Lo-Carb Energía",
         "Cantidad sugerida":0.33,
         "Unidad":"lata",
@@ -2099,9 +1821,7 @@
         "Sodio (mg)":"118,8"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd2b"
-        },
+
         "ALIMENTOS":"Mostaza",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2114,9 +1834,7 @@
         "Sodio (mg)":"65,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd2c"
-        },
+
         "ALIMENTOS":"Mostaza Dijón",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2129,9 +1847,7 @@
         "Sodio (mg)":"65,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd2d"
-        },
+
         "ALIMENTOS":"Mostaza en polvo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2144,9 +1860,7 @@
         "Sodio (mg)":"0,3"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd2e"
-        },
+
         "ALIMENTOS":"Orange crush diet",
         "Cantidad sugerida":0.5,
         "Unidad":"lata",
@@ -2159,9 +1873,7 @@
         "Sodio (mg)":"22,2"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd2f"
-        },
+
         "ALIMENTOS":"Nuez moscada",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2174,9 +1886,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd30"
-        },
+
         "ALIMENTOS":"Nutra sweet",
         "Cantidad sugerida":1.0,
         "Unidad":"sobre",
@@ -2189,9 +1899,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd31"
-        },
+
         "ALIMENTOS":"Nuez moscada molida",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2204,9 +1912,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd32"
-        },
+
         "ALIMENTOS":"Orégano molido",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2219,9 +1925,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd33"
-        },
+
         "ALIMENTOS":"Orégano",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2234,9 +1938,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd34"
-        },
+
         "ALIMENTOS":"Paprika",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2249,9 +1951,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd35"
-        },
+
         "ALIMENTOS":"Orégano troceado",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2264,9 +1964,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd36"
-        },
+
         "ALIMENTOS":"Pepsi de dieta",
         "Cantidad sugerida":1.0,
         "Unidad":"lata",
@@ -2279,9 +1977,7 @@
         "Sodio (mg)":"34,5"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd37"
-        },
+
         "ALIMENTOS":"Pimentón",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2294,9 +1990,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd38"
-        },
+
         "ALIMENTOS":"Perejil deshidratado",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharada",
@@ -2309,9 +2003,7 @@
         "Sodio (mg)":"15,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd39"
-        },
+
         "ALIMENTOS":"Pimienta blanca",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2324,9 +2016,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd3a"
-        },
+
         "ALIMENTOS":"Pepsi Max",
         "Cantidad sugerida":1.0,
         "Unidad":"lata",
@@ -2339,9 +2029,7 @@
         "Sodio (mg)":"34,5"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd3b"
-        },
+
         "ALIMENTOS":"Pimienta",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2354,9 +2042,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd3c"
-        },
+
         "ALIMENTOS":"Pimienta de cayena",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2369,9 +2055,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd3d"
-        },
+
         "ALIMENTOS":"Pimienta blanaca entera",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2384,9 +2068,7 @@
         "Sodio (mg)":"1,8"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd3e"
-        },
+
         "ALIMENTOS":"Pimienta de tabasco",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2399,9 +2081,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd3f"
-        },
+
         "ALIMENTOS":"Pimienta blanca en polvo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2414,9 +2094,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd40"
-        },
+
         "ALIMENTOS":"Pimienta blanaca molida",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2429,9 +2107,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd41"
-        },
+
         "ALIMENTOS":"Pimienta negra",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2444,9 +2120,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd42"
-        },
+
         "ALIMENTOS":"Pimienta molida",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2459,9 +2133,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd43"
-        },
+
         "ALIMENTOS":"Pimienta gorda",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2474,9 +2146,7 @@
         "Sodio (mg)":"1,8"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd44"
-        },
+
         "ALIMENTOS":"Pimienta negra en polvo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2489,9 +2159,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd45"
-        },
+
         "ALIMENTOS":"Pimienta negra entera",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2504,9 +2172,7 @@
         "Sodio (mg)":"1,8"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd46"
-        },
+
         "ALIMENTOS":"Pimienta nagra molida",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2519,9 +2185,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd47"
-        },
+
         "ALIMENTOS":"Raíz de jengibre",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2534,9 +2198,7 @@
         "Sodio (mg)":"0,3"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd48"
-        },
+
         "ALIMENTOS":"Pimienta verde",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2549,9 +2211,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd49"
-        },
+
         "ALIMENTOS":"Raja de canela",
         "Cantidad sugerida":0.33,
         "Unidad":"pieza",
@@ -2564,9 +2224,7 @@
         "Sodio (mg)":"1,2"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd4a"
-        },
+
         "ALIMENTOS":"Ralladura de limón",
         "Cantidad sugerida":5.0,
         "Unidad":"cucharadita",
@@ -2579,9 +2237,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd4b"
-        },
+
         "ALIMENTOS":"Ralladura de naranja",
         "Cantidad sugerida":5.0,
         "Unidad":"cucharadita",
@@ -2594,9 +2250,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd4c"
-        },
+
         "ALIMENTOS":"Red Bull sugar free*",
         "Cantidad sugerida":0.5,
         "Unidad":"lata",
@@ -2609,9 +2263,7 @@
         "Sodio (mg)":"105,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd4d"
-        },
+
         "ALIMENTOS":"Pimienta roja",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2624,9 +2276,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd4e"
-        },
+
         "ALIMENTOS":"Refresco de dieta",
         "Cantidad sugerida":1.0,
         "Unidad":"lata",
@@ -2639,9 +2289,7 @@
         "Sodio (mg)":"5,7"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd4f"
-        },
+
         "ALIMENTOS":"Raíz fuerte",
         "Cantidad sugerida":5.0,
         "Unidad":"g",
@@ -2654,9 +2302,7 @@
         "Sodio (mg)":"0,6"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd50"
-        },
+
         "ALIMENTOS":"Refresco en polvo sin azúcar",
         "Cantidad sugerida":1.0,
         "Unidad":"sobre",
@@ -2669,9 +2315,7 @@
         "Sodio (mg)":"2,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd51"
-        },
+
         "ALIMENTOS":"Romero",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2684,9 +2328,7 @@
         "Sodio (mg)":"1,5"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd52"
-        },
+
         "ALIMENTOS":"Romero deshidratado",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2699,9 +2341,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd53"
-        },
+
         "ALIMENTOS":"Romeo picado",
         "Cantidad sugerida":0.5,
         "Unidad":"cucharadita",
@@ -2714,9 +2354,7 @@
         "Sodio (mg)":"0,9"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd54"
-        },
+
         "ALIMENTOS":"Sal",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2729,9 +2367,7 @@
         "Sodio (mg)":"2325,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd55"
-        },
+
         "ALIMENTOS":"Sal de ajo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2744,9 +2380,7 @@
         "Sodio (mg)":"760,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd56"
-        },
+
         "ALIMENTOS":"Salsa de barbecue",
         "Cantidad sugerida":0.5,
         "Unidad":"cucharada",
@@ -2759,9 +2393,7 @@
         "Sodio (mg)":"64,9"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd57"
-        },
+
         "ALIMENTOS":"Salsa de soya",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2774,9 +2406,7 @@
         "Sodio (mg)":"340,8"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd58"
-        },
+
         "ALIMENTOS":"Sal de potasio",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2789,9 +2419,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd59"
-        },
+
         "ALIMENTOS":"Salsa Tabasco",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2804,9 +2432,7 @@
         "Sodio (mg)":"38,4"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd5a"
-        },
+
         "ALIMENTOS":"Salsa inglesa",
         "Cantidad sugerida":0.5,
         "Unidad":"cucharada",
@@ -2819,9 +2445,7 @@
         "Sodio (mg)":"82,5"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd5b"
-        },
+
         "ALIMENTOS":"Semilla de anís",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2834,9 +2458,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd5c"
-        },
+
         "ALIMENTOS":"Salvia",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2849,9 +2471,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd5d"
-        },
+
         "ALIMENTOS":"Salsa teriyaki",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2864,9 +2484,7 @@
         "Sodio (mg)":"254,7"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd5e"
-        },
+
         "ALIMENTOS":"Sal de apio",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2879,9 +2497,7 @@
         "Sodio (mg)":"760,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd5f"
-        },
+
         "ALIMENTOS":"Semilla de apio",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2894,9 +2510,7 @@
         "Sodio (mg)":"3,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd60"
-        },
+
         "ALIMENTOS":"Semilla de mosraza",
         "Cantidad sugerida":0.5,
         "Unidad":"cucharadita",
@@ -2909,9 +2523,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd61"
-        },
+
         "ALIMENTOS":"Sidral de dieta",
         "Cantidad sugerida":1.0,
         "Unidad":"lata",
@@ -2924,9 +2536,7 @@
         "Sodio (mg)":"5,7"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd62"
-        },
+
         "ALIMENTOS":"Sidral light",
         "Cantidad sugerida":1.0,
         "Unidad":"lata",
@@ -2939,9 +2549,7 @@
         "Sodio (mg)":"5,7"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd63"
-        },
+
         "ALIMENTOS":"Squirt de dieta",
         "Cantidad sugerida":1.0,
         "Unidad":"lata",
@@ -2954,9 +2562,7 @@
         "Sodio (mg)":"5,7"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd64"
-        },
+
         "ALIMENTOS":"Squirt light",
         "Cantidad sugerida":1.0,
         "Unidad":"lata",
@@ -2969,9 +2575,7 @@
         "Sodio (mg)":"5,7"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd65"
-        },
+
         "ALIMENTOS":"Tomillo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2984,9 +2588,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd66"
-        },
+
         "ALIMENTOS":"Vainilla",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -2999,9 +2601,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd67"
-        },
+
         "ALIMENTOS":"Vainilla en trozo",
         "Cantidad sugerida":0.25,
         "Unidad":"raja",
@@ -3014,9 +2614,7 @@
         "Sodio (mg)":"1,3"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd68"
-        },
+
         "ALIMENTOS":"Vinagre",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -3029,9 +2627,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd69"
-        },
+
         "ALIMENTOS":"Vinagre balsámico",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -3044,9 +2640,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd6a"
-        },
+
         "ALIMENTOS":"Vinagre blanco",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -3059,9 +2653,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd6b"
-        },
+
         "ALIMENTOS":"Vinagre de caña",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -3074,9 +2666,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd6c"
-        },
+
         "ALIMENTOS":"Vinagre de fruta",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -3089,9 +2679,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd6d"
-        },
+
         "ALIMENTOS":"Vinagre de jeréz",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -3104,9 +2692,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd6e"
-        },
+
         "ALIMENTOS":"Semilla de cardamomo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -3119,9 +2705,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd6f"
-        },
+
         "ALIMENTOS":"Semilla de eneldo",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -3134,9 +2718,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd70"
-        },
+ 
         "ALIMENTOS":"Viangre de manzana",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -3149,9 +2731,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd71"
-        },
+
         "ALIMENTOS":"Semilla de cilantro",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -3164,9 +2744,7 @@
         "Sodio (mg)":"1,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd72"
-        },
+
         "ALIMENTOS":"Vinagre de sidra",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -3179,9 +2757,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd73"
-        },
+
         "ALIMENTOS":"Vinagre de vino",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",
@@ -3194,9 +2770,7 @@
         "Sodio (mg)":"0,0"
      },
      {
-        "_id":{
-           "$oid":"5cddab806cde6668e1d3dd74"
-        },
+
         "ALIMENTOS":"Vinagre de yema",
         "Cantidad sugerida":1.0,
         "Unidad":"cucharadita",

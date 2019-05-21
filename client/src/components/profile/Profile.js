@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import BottomMenu from "../bottom-menu/BottomMenu";
-import "./profile.css"
+import "./profile.css";
 import { AreaChart, Area, XAxis, CartesianGrid, Tooltip } from "recharts";
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
-import { Icon } from 'semantic-ui-react'
+import { Icon } from "semantic-ui-react";
 
 const data = [
   {
@@ -25,32 +25,62 @@ const data = [
   {
     name: "Mayo",
     uv: 70.9
+  },
+  {
+    name: "Mayo",
+    uv: 45.7
+  },
+  {
+    name: "Mayo",
+    uv: 60
   }
 ];
-
-let peso = "59 Kg";
 
 export default class Profile extends Component {
   static jsfiddleUrl = "https://jsfiddle.net/alidingling/c1rLyqj1/";
 
+  state = {
+    peso: " ",
+    cintura:" ",
+    cadera:""
+  };
+
+ 
+
+  handleInput = (event, data) => {
+    const { name, value } = data;
+    this.setState({
+      [name]: value
+    });
+  };
+
   render() {
+    const { peso, cintura, cadera } = this.state;
     return (
       <div>
         <div>
           <section className="user-data">
             <div className="avatar">
-              <img src="https://images.onlinelabels.com/images/clip-art/GDJ/Female%20Avatar%204-277088.png" width="80px" alt="profile-pic" />
+              <img
+                src="https://images.onlinelabels.com/images/clip-art/GDJ/Female%20Avatar%204-277088.png"
+                width="80px"
+                alt="profile-pic"
+              />
             </div>
             <div className="user-data-text">
               <p className="name">Maryjose Torres</p>
-              <p className="city"> <Icon className="location arrow" />Mexico, CDMX</p>
+              <p className="city">
+                {" "}
+                <Icon className="location arrow" />
+                Mexico, CDMX
+              </p>
               <p className="goal">Objetivo: Bajar de peso</p>
             </div>
           </section>
           <hr className="divition" />
           <section className="chart-position">
             <div className="border-chart">
-            <p>Tu progreso</p>
+              <p>Tu progreso</p>
               <AreaChart
                 width={300}
                 height={200}
@@ -87,80 +117,87 @@ export default class Profile extends Component {
                   fill="#ffc658"
                 />
               </AreaChart>
-
             </div>
           </section>
+        </div>
+        <section>
+          <div className="profile-buttons">
+            <div className="peso">
+              <div>
+                <Icon className="weight" />
+                <p>Peso</p>
+              </div>
+              <p>{peso} Kg</p>
+            </div>
+            <div className="cintura">
+              <div>
+                <Icon className="female" />
+                <p>Cintura</p>
+              </div>
+              <p>{cintura} cm.</p>
+            </div>
+            <div className="cadera">
+              <div>
+                <Icon className="female" />
+                <p>Cadera</p>
+              </div>
+              <p>{cadera} cm</p>
+            </div>
+            <div className="objetivo">
+              <div>
+                <Icon className="flag checkered" />
+                <p>Objetivo</p>
+              </div>
+              <p>Bajar de Peso</p>
+            </div>
           </div>
-          <section>
-            <div className="profile-buttons">
-              <div className="peso">
-                <div>
-                  <Icon className="weight" />
-                  <p>Peso</p>
-                </div>
-                <p>{peso}</p>
-              </div>
-              <div className="cintura">
-                <div>
-                  <Icon className="female" />
-                  <p>Cintura</p>
-                </div>
-                <p>70 cm.</p>
-              </div>
-              <div className="cadera">
-                <div>
-                  <Icon className="female" />
-                  <p>Cadera</p>
-                </div>
-                <p>92 cm.</p>
-              </div>
-              <div className="objetivo">
-                <div>
-                  <Icon className="flag checkered" />
-                  <p>Objetivo</p>
-                </div>
-                <p>Bajar de Peso</p>
-              </div>
-            </div>
-          </section>
-          <hr className="divition" />
-          <h3>Edita tu Perfil</h3>
-          <section className="form-profile">
-            <Form>
-                <Form.Group widths="equal" className="inputs-profile">
-                  <Form.Field
-                    id="form-input-control-first-name"
-                    control={Input}
-                    label="Peso"
-                    placeholder="Peso"
-                    value = {this.peso}
-                  />
-                  <Form.Field
-                    id="form-input-control-last-name"
-                    control={Input}
-                    label="Cintura"
-                    placeholder="Cintura"
-                  />
-                  <Form.Field
-                    id="form-input-control-last-name"
-                    control={Input}
-                    label="Cadera"
-                    placeholder="Cadera"
-                  />
-                </Form.Group>
-                <Form.Field
-                  id="form-textarea-control-opinion"
-                  control={TextArea}
-                  label="Objetivo"
-                  placeholder="Objetivo"
-                />
-                <Form.Field
-                  id="form-button-control-public"
-                  control={Button}
-                  content="Confirm"
-                />
-            </Form>
-          </section>
+        </section>
+        <hr className="divition" />
+        <h3>Edita tu Perfil</h3>
+        <section className="form-profile">
+          <Form>
+            <Form.Group widths="equal" className="inputs-profile">
+              <Form.Field
+                id="form-input-control-first-name"
+                control={Input}
+                name="peso"
+                label="Peso"
+                placeholder="Peso"
+                value={this.state.peso}
+                onChange={this.handleInput}
+              />
+              <Form.Field
+                id="form-input-control-last-name"
+                control={Input}
+                name="cintura"
+                label="Cintura"
+                placeholder="Cintura"
+                value={this.state.cintura}
+                onChange={this.handleInput}
+              />
+              <Form.Field
+                id="form-input-control-last-name"
+                control={Input}
+                name="cadera"
+                label="Cadera"
+                placeholder="Cadera"
+                value={this.state.cadera}
+                onChange={this.handleInput}
+              />
+            </Form.Group>
+            <Form.Field
+              id="form-textarea-control-opinion"
+              control={TextArea}
+              label="Objetivo"
+              placeholder="Objetivo"
+            />
+            <Form.Field
+              id="form-button-control-public"
+              control={Button}
+              content="Confirm"
+            />
+          </Form>
+        </section>
         <div className="sticky-menu">
           <BottomMenu />
         </div>

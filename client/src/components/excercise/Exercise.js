@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import BottomMenu from '../bottom-menu/BottomMenu';
 import xcercise from '../JSON/Ejercicios.json';
-import { Card, Image, Rating, Placeholder } from 'semantic-ui-react';
+import { Card, Image, Placeholder } from 'semantic-ui-react';
 import './Exercise.css';
+
 
 export default class Excercise extends Component {
 
@@ -42,12 +43,14 @@ export default class Excercise extends Component {
                   </Placeholder>
                 ) : (
                   <div>
-                  <Card.Header>{e.name}</Card.Header>
-                  <Card.Meta>
+                  <Card.Header className="challenge-name">{e.name}</Card.Header>
+                  <Card.Meta className="duration-challenge">
                     <span className='date'>{e.level}</span>
                   </Card.Meta>
                   <Card.Description>
-                    {e.video}
+                  <a href={e.video} target="_blanks">
+                  <button className="button-video">Entrar</button>
+                  </a>
                   </Card.Description>
                   </div>
                 )}
