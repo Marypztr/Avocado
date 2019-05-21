@@ -1,7 +1,9 @@
 .form-profile{
-  width:150px;
+  display: flex;
   justify-content: center;
-
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px;
 }
 
 .inputs-profile{
@@ -9,4 +11,125 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.user-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:30px;
+}
+
+.avatar{
+  background: tomato;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.name{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-data-text {
+  width: 55%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.city{
+  font-style: italic;
+  margin-top: -20px;
+}
+
+.goal{
+  margin-top:-10px;
+  font-size: 18px;
+}
+
+.chart-position{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top:30px;
+}
+
+.border-chart{
+  width: 92%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.border-chart p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.divition {
+  width: 80%;
+  margin-top: 30px;
+  opacity: 0.4;
+}
+
+.peso{
+  width: 150px;
+  height: 180px;
+  border-radius: 10px;
+  background: rgb(129,85,130);
+  background: linear-gradient(38deg, rgba(129,85,130,1) 0%, rgba(197,128,245,1) 100%);
+}
+
+.cintura{
+  width: 150px;
+  height: 180px;
+  border-radius: 10px;
+  background: rgb(130,109,85);
+  background: linear-gradient(38deg, rgba(130,109,85,1) 0%, rgba(250,203,106,1) 100%);
+}
+
+.cadera{
+  width: 150px;
+  height: 180px;
+  border-radius: 10px;
+  background: rgb(89,138,154);
+  background: linear-gradient(38deg, rgba(89,138,154,1) 0%, rgba(106,229,250,1) 100%);
+}
+
+.objetivo{
+  width: 150px;
+  height: 180px;
+  border-radius: 10px;
+  background: rgb(89,154,102);
+  background: linear-gradient(38deg, rgba(89,154,102,1) 0%, rgba(106,250,138,1) 100%);
+}
+
+.profile-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top:30px;
+}
+
+.profile-buttons div{
+  margin:10px;
+  color:white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
