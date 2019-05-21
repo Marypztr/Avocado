@@ -2,7 +2,8 @@ import React, { Component }from "react";
 import BottomMenu from '../bottom-menu/BottomMenu';
 import { PieChart, Pie, Cell} from 'recharts';
 import './Recipedetail.css';
-import  logo2  from '../../images/logoTexto.png';
+import Recipe from "../../components/JSON/Recetas"
+// import  logo2  from '../../../public/images/logoTexto.png';
 
 
 const data = [
@@ -30,21 +31,32 @@ const renderCustomizedLabel = ({
 };
 
 export default class Recipedetail extends Component {
-  
+  state ={
+    details:[]
+    
+  }
   render() {
     return (
-      <div>
+      <div className="details-body">
+      <div className="details">
+      {Recipe.map((e,i)=>{
+        return <section>
         <div className="card-position">
           <section>
-            <img className="logo-menu" src={logo2} alt="logo"/>
+            <img className="logo-menu" src="https://res.cloudinary.com/djkjuiyan/image/upload/v1558387997/imgs3P/logoTexto_qb6xcr.png" alt="logo"/>
           </section>
-          <h2>Title</h2>
+          <h2>{e.name}</h2>
           <section className="recipe-card">
-            <div className="food-picture">
-              <img src="https://amp.insider.com/images/5ad792ffbd967146008b45d9-960-720.jpg" alt="recipe" width="120px" height="120px"/>
+            <div className="food-picture"> 
+              <img src={e.image} alt="recipe" width="120px" height="120px"/>
             </div>
             <div className="recipe-description">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <ul>{e.ingredientes.map((e,i)=>{
+                return <li>
+                <h2>{e.name}</h2>
+                <p>{e.qty}</p>
+                </li>
+              })}</ul>
             </div>
             <div  className="chart">
               <PieChart width={200} height={200}>
@@ -57,7 +69,7 @@ export default class Recipedetail extends Component {
                   outerRadius={80}
                   fill="#8884d8"
                   dataKey="value"
-                >
+                  >
                   {
                     data.map((entry, index) => <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />)
                   }
@@ -79,6 +91,9 @@ export default class Recipedetail extends Component {
             </div>
             </div>
           </section>
+        </div>
+        </section>
+        })}
         </div>
         <div className="sticky-menu">
           <BottomMenu/>

@@ -1,0 +1,12 @@
+.form-profile{
+  width:150px;
+  justify-content: center;
+
+}
+
+.inputs-profile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,181 +1,270 @@
 [
     {
         "name":"alambre de pollo",
-        "image":"",
+        "image":"https://res.cloudinary.com/djkjuiyan/image/upload/v1558388009/imgs3P/alambre-de-pollo-con-arroz_iasc7a.jpg",
         "ingredientes":[
             {
-                "pollo":"90gr",
-                "aguacate":"80gr",
-                "pimiento":"1 pieza",
-                "aceite":"1 cucharadita",
-                "arroz salvaje":"80gr",
-                "germen de trigo":"100gr",
-                "jitomate cherry":"3 piezas"
+                "name": "pollo", "qty": "90gr"
+            },{
+
+                "name":"aguacate", "qty":"80gr"
+            },{
+
+                "name":"pimiento", "qty":"1 pieza"
+            },{
+
+                "name":"aceite", "qty":"1 cucharadita"
+            },{
+
+                "name":"arroz salvaje", "qty":"80gr"
+            },{
+
+                "name":"germen de trigo", "qty":"100gr"
+            },{
+
+                "name":"jitomate cherry", "qty":"3 piezas"
             }
         ]
         
     },{
         "name":"bistec con chile poblano",
-        "image":"",
+        "image":"https://res.cloudinary.com/djkjuiyan/image/upload/v1558388023/imgs3P/alambre-de-res_lif6ng.jpg",
         "ingredientes":[
-            {
-                "bistec":"60gr",
-                "queso oaxaca":"30gr",
-                "chile poblano":"1 pieza",
-                "calabaza":"1 pieza",
-                "jitomate":"1 pieza",
-                "tortilla de tomate":"2 piezas"
-            }
+            
+                {
+                    "name":"bistec", "qty":"60gr"
+                },{
+
+                    "name":"queso oaxaca", "qty":"30gr"
+                },{
+
+                    "name":"chile poblano", "qty":"1 pieza"
+                },{
+
+                    "name":"calabaza", "qty":"1 pieza"
+                },{
+
+                    "name":"jitomate", "qty":"1 pieza"
+                },{
+
+                    "name":"tortilla de tomate", "qty":"2 piezas"
+                }
+                
+            
         ]
     },{
 
         "name":"atun y crema de zanahoria",
-        "image":"",
+        "image":"https://res.cloudinary.com/djkjuiyan/image/upload/v1558388017/imgs3P/atun-y-crema-de-zanahoria_cav1jq.jpg",
         "ingredientes":[
             {
-                "medallon de atun":"100gr",
-                "germen de alfalfa":"90gr",
-                "zanahoria":"3 piezas",
-                "crutones":"10 piezas"
+                "name":"medallon de atun","qty":"100gr"
+            },{
+
+                "name":"germen de alfalfa","qty":"90gr"
+            },{
+
+                "name":"zanahoria","qty":"3 piezas"
+            },{
+
+                "name":"crutones","qty":"10 piezas"
             }
         ]    
    },{
-        "name":"bistec con chile poblano",
-        "image":"",
-        "ingredientes":[
-            {
-                "bistec":"60gr",
-                "queso oaxaca":"30gr",
-                "chile poblano":"1 pieza",
-                "calabaza":"1 pieza",
-                "jitomate":"1 pieza",
-                "tortilla de tomate":"2 piezas"
-            }
-
-        ]
-    },{
         "name":"Bistec en salsa roja con nopales",
-        "image":"",
+        "image":"images/bistec- en-salsa-con-nopales.jpg",
         "ingredientes":[
             {
-                "bistec":"60gr",
-                "nopal":"1 pieza",
-                "jitomate":"0.5 pieza",
-                "cebolla":"20 gr",
-                "ajo":"0.5 pieza",
-                "tostada horneada":"1 pieza"
+                "name":"bistec","qty":"60gr"
+            },{
+
+                "name":"nopal","qty":"1 pieza"
+            },{
+
+                "name":"jitomate","qty":"0.5 pieza"
+            },{
+
+                "name":"cebolla","qty":"20 gr"
+            },{
+
+                "name":"ajo","qty":"0.5 pieza"
+            },{
+
+                "name":"tostada horneada","qty":"1 pieza"
             }
 
         ]
     },{
         "name":"bocadillo salado",
-        "image":"",
+        "image":"https://res.cloudinary.com/djkjuiyan/image/upload/v1558388024/imgs3P/bocadillo-salado_vrzi8h.jpg",
         "ingredientes":[
             {
-                "pan de caja":"2 piezas",
-                "queso panela":"30gr",
-                "pechuga de pavo":"2 rebanadas",
-                "hummus":"1 cucharadita",
-                "aguacate":"20gr",
-                "espinaca":"20gr"
+                "name":"pan de caja","qty":"2 piezas"
+            },{
+
+                "name":"queso panela","qty":"30gr"
+            },{
+
+                "name":"pechuga de pavo","qty":"2 rebanadas"
+            },{
+
+                "name":"hummus","qty":"1 cucharadita"
+            },{
+
+                "name":"aguacate","qty":"20gr"
+            },{
+
+                "name":"espinaca","qty":"20gr"
             }
 
         ]
     },{
         "name":"cereal casero",
-        "image":"",
+        "image":"https://res.cloudinary.com/djkjuiyan/image/upload/v1558388040/imgs3P/cereal-casero_jukpnw.jpg",
         "ingredientes":[
             {
-                "leche de almendras":"240 ml",
-                "quinoa inflada":"3 cucharadas",
-                "almendra fileteada":"1 cucharada",
-                "cacao":"1 cucharadita"
+                "name":"leche de almendras","qty":"240 ml"
+            },{
+
+                "name":"quinoa inflada","qty":"3 cucharadas"
+            },{
+
+                "name":"almendra fileteada","qty":"1 cucharada"
+            },{
+
+                "name":"cacao","qty":"1 cucharadita"
             }
 
         ]
     },{
         "name":"ensalada de calabaza con jitomate",
-        "image":"",
+        "image":"https://res.cloudinary.com/djkjuiyan/image/upload/v1558388030/imgs3P/ensalada-calabaza-jitomate_kzpljy.jpg",
         "ingredientes":[
             {
-                "calabaza":"1 pieza",
-                "jitomate":"1 pieza",
-                "semilla de hemp":"1 cucharadita"
+                "name":"calabaza","qty":"1 pieza"
+            },{
+
+                "name":"jitomate","qty":"1 pieza"
+            },{
+
+                "name":"semilla de hemp","qty":"1 cucharadita"
             }
 
         ]
     },{
         "name":"yogurt con fruta",
-        "image":"",
+        "image":"https://res.cloudinary.com/djkjuiyan/image/upload/v1558388036/imgs3P/yogurt-kiwi-fresa_xfaslo.jpg",
         "ingredientes":[
             {
-                "yogurt griego sin azucar":"120gr",
-                "kiwi":"1 pieza",
-                "fresa":"4 pieza"
+                "name":"yogurt griego sin azucar","qty":"120gr"
+            },{
+
+                "name":"kiwi","qty":"1 pieza"
+            },{
+
+                "name":"fresa","qty":"4 pieza"
             }
 
         ]
     },{
         "name":"picadillo con pasta",
-        "image":"",
+        "image":"https://res.cloudinary.com/djkjuiyan/image/upload/v1558388040/imgs3P/picadillo-con-pasta_vthcfm.jpg",
         "ingredientes":[
             {
-                "picadillo":"80gr",
-                "zanahoria":"1 pieza",
-                "pepino":"0.5 taza",
-                "espinaca":"1 taza",
-                "pasta integral":".25 taza",
-                "yogurt griego sin azucar":"15 gr"
+                "name":"picadillo","qty":"80gr"
+            },{
+
+                "name":"zanahoria","qty":"1 pieza"
+            },{
+
+                "name":"pepino","qty":"0.5 taza"
+            },{
+
+                "name":"espinaca","qty":"1 taza"
+            },{
+
+                "name":"pasta integral","qty":".25 taza"
+            },{
+
+                "name":"yogurt griego sin azucar","qty":"15 gr"
             }
 
         ]   
     },{
         "name":"pizza de pollo",
-        "image":"",
+        "image":"https://res.cloudinary.com/djkjuiyan/image/upload/v1558388035/imgs3P/pizza-de_pollo_kdz6au.jpg",
         "ingredientes":[
             {
-                "pechuga de pollo":"60gr",
-                "queso mozarella":"40gr",
-                "pimiento amarillo":"40 gr",
-                "salsa de tomate":"1 cucharada",
-                "pan pita":"1 pieza"
+                "name":"pechuga de pollo","qty":"60gr"
+            },{
+
+                "name":"queso mozarella","qty":"40gr"
+            },{
+
+                "name":"pimiento amarillo","qty":"40 gr"
+            },{
+
+                "name":"salsa de tomate","qty":"1 cucharada"
+            },{
+
+                "name":"pan pita","qty":"1 pieza"
             }
 
         ]
     },{
         "name":"Salmon a las finas hierbas",
-        "image":"",
+        "image":"https://res.cloudinary.com/djkjuiyan/image/upload/v1558388012/imgs3P/salmon-con-humus_gtidst.jpg",
         "ingredientes":[
             {
-                "salmon":"90gr",
-                "hummus":"30gr",
-                "espinaca":"1 taza",
-                "zanahoria":"1 pieza",
-                "tortilla de tomate":"2 piezas"
+                "name":"salmon","qty":"90gr"
+            },{
+
+                "name":"hummus","qty":"30gr"
+            },{
+
+                "name":"espinaca","qty":"1 taza"
+            },{
+
+                "name":"zanahoria","qty":"1 pieza"
+            },{
+
+                "name":"tortilla de tomate","qty":"2 piezas"
             }
 
         ]
     },{
         "name":"sopa de tortilla",
-        "image":"",
+        "image":"https://res.cloudinary.com/djkjuiyan/image/upload/v1558388037/imgs3P/sopa-de-tortilla_jmeut7.jpg",
         "ingredientes":[
             {
-                "tortilla de nopal":"2 piezas",
-                "queso panela":"30gr",
-                "aguacate":"80 gr",
-                "caldo de jitomate":"1 taza"
+                "name":"tortilla de nopal","qty":"2 piezas"
+            },{
+
+                "name":"queso panela","qty":"30gr"
+            },{
+
+                "name":"aguacate","qty":"80 gr"
+            },{
+
+                "name":"caldo de jitomate","qty":"1 taza"
             }
 
         ]
     },{
         "name":"tortitas de arroz dulces",
-        "image":"",
+        "image":"https://res.cloudinary.com/djkjuiyan/image/upload/v1558388014/imgs3P/tortitas-de-arroz-dulce_q5dhiu.jpg",
         "ingredientes":[
             {
-                "tostada de arroz":"2 piezas",
-                "crema de almendras":"20 gr",
-                "fresa":"3 pieza",
-                "semillas de hemp":"15 gr"
+                "name":"tostada de arroz","qty":"2 piezas"
+            },{
+
+                "name":"crema de almendras","qty":"20 gr"
+            },{
+
+                "name":"fresa","qty":"3 pieza"
+            },{
+
+                "name":"semillas de hemp","qty":"15 gr"
             }
 
         ]

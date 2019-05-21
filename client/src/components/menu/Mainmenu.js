@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom"
 import { Icon } from 'semantic-ui-react'
-import  logo2  from '../../images/logoTexto.png'
+// import  logo2  from '../../../public/images/logoTexto.png'
 import Logout from "../Logout"
 import "./Mainmenu.css"
 import BottomMenu from "../bottom-menu/BottomMenu"
@@ -18,7 +18,7 @@ export default class Mainmenu extends Component {
       <section className="barrita-d-menu">
         <div>
         <Logout/>
-          <img className="logo-menu" src={logo2} alt="logo"/>
+          <img className="logo-menu" src="https://res.cloudinary.com/djkjuiyan/image/upload/v1558387997/imgs3P/logoTexto_qb6xcr.png" alt="logo"/>
 
         </div>
       </section>
@@ -29,11 +29,11 @@ export default class Mainmenu extends Component {
         </div>
         <div className="button-reto">
           <p><Icon name='calendar alternate' />Retos semanales</p>
-          <button className="button-enter">Inicia un reto</button>
+          <button className="button-enter"> <Link to ="./challenge">Inicia un reto </Link></button>
         </div>
         <div className ="button-ejercicio">
           <p><Icon name='heart' />Ejercicios</p>
-          <button className="button-enter">Selecciona una rutina</button>
+          <button className="button-enter"><Link to ="./excercise">Selecciona una rutina</Link></button>
         </div>
         <div className="button-shops">
           <p><Icon name='shopping basket' />Tiendas saludables</p>

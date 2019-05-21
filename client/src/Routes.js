@@ -10,6 +10,9 @@ import Recipes from "./components/Recipes/Recipes"
 import Createrecipe from "./components/createRecipe/Createrecipe";
 import Recipedetail from "./components/recipeDetail/Recipedetail"
 import HealthStore from "./components/Healthstore/Healthstore"
+// import Excercise from "./components/excercise/Excercise"
+import Excercise from './components/excercise/Exercise'
+import Challenge from "./components/challenge/Challenge"
 
 const Routes =() =>(
     <Switch>
@@ -23,6 +26,8 @@ const Routes =() =>(
         <Route exact path={"/profile"} component={Profile}/>
         <Route exact path={"/new"} component={Createrecipe}/>
         <Route exact path={"/details"} component={Recipedetail}/>
+        <Route exact path={"/excercise"} component={Excercise}/>
+        <Route exact path={"/challenge"} component={Challenge}/>
     </Switch>
 )
 

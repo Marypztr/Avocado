@@ -1,5 +1,5 @@
 import React, { Component }from "react"
-import logo2 from "../../images/logo2.png"
+// import logo2 from "../../../public/images/logo2.png"
 import AuthService from "../../services/Auth"
 import "./signup.css"
 import toastr from "toastr"
@@ -39,7 +39,7 @@ export default class Signup extends Component {
   render() {
       return (
           <div className="signup-body">
-              <img src={logo2} style={{width: 100}} className="logo2" alt="logo2"/>
+              <img src="https://res.cloudinary.com/djkjuiyan/image/upload/v1558388015/imgs3P/logo2_af6rww.png" style={{width: 100}} className="logo2" alt="logo2"/>
               <div className="back-image-signup"></div>
               <div className="back-color-signup"></div>
               <div className="Buttons-signup">

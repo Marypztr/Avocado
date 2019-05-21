@@ -43,27 +43,27 @@
 }
 
 .button-recipe{
-    background-image: url("../../images/recetas.png");
+    background-image: url("https://res.cloudinary.com/djkjuiyan/image/upload/v1558387999/imgs3P/recetas_xvisti.png");
     background-position: right;
 }
 
 .button-reto{
-    background-image: url("../../images/retos.png");
+    background-image: url("https://res.cloudinary.com/djkjuiyan/image/upload/v1558387999/imgs3P/retos_n5pcqg.png");
     background-position: right;
 }
 
 .button-ejercicio{
-    background-image: url("../../images/ejercicios.png");
+    background-image: url("https://res.cloudinary.com/djkjuiyan/image/upload/v1558387998/imgs3P/ejercicios_hxy4rh.png");
     background-position: right;
 }
 
 .button-shops{
-    background-image: url("../../images/tienda.png");
+    background-image: url("https://res.cloudinary.com/djkjuiyan/image/upload/v1558387998/imgs3P/tienda_i2a11e.png");
     background-position: right;
 }
 
 .button-profile{
-    background-image: url("../../images/perfil.png");
+    background-image: url("https://res.cloudinary.com/djkjuiyan/image/upload/v1558387999/imgs3P/perfil_n4dqkf.png");
     background-position: right;
 }
 .button-enter{

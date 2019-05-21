@@ -1,0 +1,51 @@
+[
+  {
+    "name":"aumento de gluteos",
+    "zone":"Gluteos",
+    "level":2,
+    "duration":"8 min",
+    "video":"https://www.youtube.com/watch?v=-jM0zFbFaF8&list=PLReDUkUQG7xrWBer-RbJ9tZP8e-QjmYPD&index=4"
+  },  {
+    "name":"gluteos fuertes",
+    "zone":"Gluteos",
+    "level":3,
+    "duration":"25 min",
+    "video":"https://www.youtube.com/watch?v=yGXwjAoQciQ&list=PLReDUkUQG7xrWBer-RbJ9tZP8e-QjmYPD&index=1"
+  },  {
+    "name":"full body cardio 1",
+    "zone":"Full body",
+    "level":3,
+    "duration":"45 min",
+    "video":"https://www.youtube.com/watch?v=GjaNoV6NJNs&list=PLReDUkUQG7xoqMprnu6IGGRtSAftZc09P"
+  },  {
+    "name":"full body cardio 2",
+    "zone":"Full body",
+    "level":3,
+    "duration":"42 min",
+    "video":"https://www.youtube.com/watch?v=J7UX9Ove5qc&list=PLReDUkUQG7xoqMprnu6IGGRtSAftZc09P&index=9"
+  },  {
+    "name":"HIIT cardio intensio",
+    "zone":"HIIT",
+    "level":3,
+    "duration":"8 min",
+    "video":"https://www.youtube.com/watch?v=dVR79qRDRKc&list=PLReDUkUQG7xqf3F1wIvh9R88uj1Oo0KKc"
+  },  {
+    "name":"Rutina rápida y eficaz",
+    "zone":"HIIT",
+    "level":3,
+    "duration":"7 min",
+    "video":"https://www.youtube.com/watch?v=w7FaNU8Lfm0&list=PLReDUkUQG7xqf3F1wIvh9R88uj1Oo0KKc&index=7"
+  },  {
+    "name":"Rutina de GAP",
+    "zone":"Abdomen",
+    "level":2,
+    "duration":"12 min",
+    "video":"https://www.youtube.com/watch?v=CItsyCTMlcY&list=PLReDUkUQG7xqd_-mkcf8weHYLDoZLUVD1&index=5"
+  },  {
+    "name":"abdomen plano",
+    "zone":"Abdomen",
+    "level":2,
+    "duration":"18 min",
+    "video":"https://www.youtube.com/watch?v=zzH07PoU1dI&list=PLReDUkUQG7xqd_-mkcf8weHYLDoZLUVD1&index=3"
+  }
+]

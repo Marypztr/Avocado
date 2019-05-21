@@ -1,0 +1,33 @@
+.body-home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color:white;
+}
+
+.back-image-home{
+  /* background-image: url("images/pexels-photo-2209596.jpeg"); */
+  background-size: 300%;
+  background-position: left top;
+  /* opacity: 0.8; */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
+
+.back-color-home{
+  background-color: #188781;
+  background-position: center top;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}

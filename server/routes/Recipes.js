@@ -13,6 +13,12 @@ router.get("./UserRecipe"), (req,res,next) =>{
   })
 }
 
+router.get("./Recipes",(req,res,next)=>{
+  Recipes.find()
+  .then(Recipes =>(Recipes))
+  .catch(err => console.log(err))
+})
+
 
 router.get("/createRecipe", ( req,res,next) =>{
   res.render("user/newRecipe")

@@ -1,0 +1,59 @@
+[
+  {
+    "name":"aumento de gluteos",
+    "zone":"Gluteos",
+    "image":"data:image/png;base64,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",
+    "level":"nivel 2",
+    "duration":"8 min",
+    "video":"https://www.youtube.com/watch?v=-jM0zFbFaF8&list=PLReDUkUQG7xrWBer-RbJ9tZP8e-QjmYPD&index=4"
+  },  {
+    "name":"gluteos fuertes",
+    "zone":"Gluteos",
+    "image":"https://eldiariony.files.wordpress.com/2015/10/bbc.jpg?quality=80&strip=all&w=624",
+    "level":"nivel 3",
+    "duration":"25 min",
+    "video":"https://www.youtube.com/watch?v=yGXwjAoQciQ&list=PLReDUkUQG7xrWBer-RbJ9tZP8e-QjmYPD&index=1"
+  },  {
+    "name":"full body cardio 1",
+    "zone":"Full body",
+    "image":"https://i.ytimg.com/vi/6CO5nU7fIm8/maxresdefault.jpg",
+    "level":"nivel 3",
+    "duration":"45 min",
+    "video":"https://www.youtube.com/watch?v=GjaNoV6NJNs&list=PLReDUkUQG7xoqMprnu6IGGRtSAftZc09P"
+  },  {
+    "name":"full body cardio 2",
+    "zone":"Full body",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ejvVEP27NCVX5LapfBkETBBD56xpS2j0bgcWEkkp6G2CdE0b",
+    "level":"nivel 3",
+    "duration":"42 min",
+    "video":"https://www.youtube.com/watch?v=J7UX9Ove5qc&list=PLReDUkUQG7xoqMprnu6IGGRtSAftZc09P&index=9"
+  },  {
+    "name":"HIIT cardio intensio",
+    "zone":"HIIT",
+    "image":"https://eresdeportista.com/wp-content/uploads/2018/10/saltos-de-tijera-1024x513.jpg",
+    "level":"nivel 3",
+    "duration":"8 min",
+    "video":"https://www.youtube.com/watch?v=dVR79qRDRKc&list=PLReDUkUQG7xqf3F1wIvh9R88uj1Oo0KKc"
+  },  {
+    "name":"Rutina rápida y eficaz",
+    "zone":"HIIT",
+    "image":"https://i.pinimg.com/originals/6a/c0/25/6ac025cdb3b3205723504ab027c44a04.jpg",
+    "level":" Nivel 3",
+    "duration":"7 min",
+    "video":"https://www.youtube.com/watch?v=w7FaNU8Lfm0&list=PLReDUkUQG7xqf3F1wIvh9R88uj1Oo0KKc&index=7"
+  },  {
+    "name":"Rutina de GAP",
+    "zone":"Abdomen",
+    "image":"http://static1.objetivobienestar.com/uploads/s1/28/70/57/2849_abdominalesygluteoscincoejerciciosparahacerencasa785x430.jpg",
+    "level":"nivel 2",
+    "duration":"12 min",
+    "video":"https://www.youtube.com/watch?v=CItsyCTMlcY&list=PLReDUkUQG7xqd_-mkcf8weHYLDoZLUVD1&index=5"
+  },  {
+    "name":"abdomen plano",
+    "zone":"Abdomen",
+    "image":"https://eresdeportista.com/wp-content/uploads/2018/02/abdomen-entrenamiento-en-casa-portada.jpg",
+    "level":"nivel 2",
+    "duration":"18 min",
+    "video":"https://www.youtube.com/watch?v=zzH07PoU1dI&list=PLReDUkUQG7xqd_-mkcf8weHYLDoZLUVD1&index=3"
+  }
+]
