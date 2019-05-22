@@ -1,16 +1,25 @@
 import React, { Component } from 'react';
 import './recipe.css';
-import { Icon } from 'semantic-ui-react'
+import AppServices from "../../services/AppServices"
 import BottomMenu from '../bottom-menu/BottomMenu';
-import Recipe from "../../components/JSON/Recetas"
+//import Recipe from "../../components/JSON/Recetas"
 import {Link} from "react-router-dom";
 
-// import  logo2  from '../../../public/images/logoTexto.png';
+ const service = new AppServices()
 
-export default class Recipes extends Component {
-  state ={
-    details:[]
+ 
+ 
+ export default class Recipes extends Component {
+   state ={
+     recipes:[]
+     
+    }
     
+    componentDidMount(){
+      service
+      .recipes()
+      .then(response => this.setState({recipes: response}))
+      .catch(err => err)
   }
   render() {
     return (
@@ -18,20 +27,17 @@ export default class Recipes extends Component {
           <section>
             <img className="logo-menu" src="https://res.cloudinary.com/djkjuiyan/image/upload/v1558387997/imgs3P/logoTexto_qb6xcr.png" alt="logo"/>
           </section>
-          <section className="add-position">
-            <div className="add-button"><Icon name='plus circle' />Publica tu propia receta.</div>
-          </section>
-          {Recipe.map((e,i)=>{
-            return <div className="table-position">
+          {this.state.recipes.map((e,i)=>{
+            return <Link key={i}  to={`/details/${e._id}`}>
+            <div className="table-position">
               <section className="recipe-list">
-                <Link to="/details">
                   <div>
                     <p className="recipe-title">{e.name}</p>
                     <img className="preview-image" src={e.image} alt="preview" />
                   </div>
-                </Link>
               </section>
             </div>
+                </Link>
           })}
           <div className="sticky-menu">
           <BottomMenu/>

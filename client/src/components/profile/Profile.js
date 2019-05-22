@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import BottomMenu from "../bottom-menu/BottomMenu";
 import "./profile.css";
 import { AreaChart, Area, XAxis, CartesianGrid, Tooltip } from "recharts";
-import { Form, Input, TextArea, Button } from "semantic-ui-react";
+import { Form, Input, TextArea } from "semantic-ui-react";
 import { Icon } from "semantic-ui-react";
 
 const data = [
@@ -42,7 +42,8 @@ export default class Profile extends Component {
   state = {
     peso: " ",
     cintura:" ",
-    cadera:""
+    cadera:"",
+    goal:""
   };
 
  
@@ -55,7 +56,9 @@ export default class Profile extends Component {
   };
 
   render() {
-    const { peso, cintura, cadera } = this.state;
+    const user = localStorage.getItem("loggedUser")
+    const { peso, cintura, cadera, goal} = this.state;
+    let loggedUser = JSON.parse(user)
     return (
       <div>
         <div>
@@ -68,7 +71,7 @@ export default class Profile extends Component {
               />
             </div>
             <div className="user-data-text">
-              <p className="name">Maryjose Torres</p>
+              <p className="name">{loggedUser.name || loggedUser.data.name}</p>
               <p className="city">
                 {" "}
                 <Icon className="location arrow" />
@@ -148,8 +151,8 @@ export default class Profile extends Component {
                 <Icon className="flag checkered" />
                 <p>Objetivo</p>
               </div>
-              <p>Bajar de Peso</p>
-            </div>
+              <p>{goal}</p>
+            </div> 
           </div>
         </section>
         <hr className="divition" />
@@ -188,14 +191,13 @@ export default class Profile extends Component {
             <Form.Field
               id="form-textarea-control-opinion"
               control={TextArea}
+              name="goal"
               label="Objetivo"
               placeholder="Objetivo"
+              value={this.state.goal}
+              onChange={this.handleInput}
             />
-            <Form.Field
-              id="form-button-control-public"
-              control={Button}
-              content="Confirm"
-            />
+
           </Form>
         </section>
         <div className="sticky-menu">

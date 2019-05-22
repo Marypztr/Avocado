@@ -1,24 +1,33 @@
 import React, { Component } from 'react'
 import BottomMenu from "../bottom-menu/BottomMenu"
-import ChallengeList from "../JSON/Challenge.json"
+//import ChallengeList from "../JSON/Challenge.json"
+import AppServices from "../../services/AppServices"
 import { Card, Image, Placeholder } from 'semantic-ui-react';
 import "./Challenge.css"
 
+const service = new AppServices() 
 
 export default class Challenge extends Component {
   state={
-    challenges:[],
+    challenge:[],
     loading:true
+  }
+
+  componentDidMount(){
+    service
+    .challenge()
+    .then(response => this.setState({challenge: response}))
+    .catch(err => err)
   }
   render() {
     const { loading } = this.state
     setTimeout(() => {
       this.setState({ loading: false })
-    }, 2000)
+    }, 1000)
     return (
       <div className="challenge-body">
-        <div className="challenges">
-        {ChallengeList.map((e,i)=>{
+        <div className="challenges-body">
+        {this.state.challenge.map((e,i)=>{
           return <section key={i} className="challenge-card">
             <Card>
             {loading ? (

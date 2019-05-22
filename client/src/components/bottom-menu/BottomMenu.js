@@ -12,7 +12,7 @@ export default class BottomMenu extends Component {
             <div>
               
               <Link className="link" to="/auth">
-              <Logout/>
+              <Logout />
                 <p>Logout</p>
               </Link>
             </div>

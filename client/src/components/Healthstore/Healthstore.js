@@ -1,27 +1,36 @@
 import React, { Component } from 'react';
 import BottomMenu from '../bottom-menu/BottomMenu';
-import HealthstoreList from '../JSON/Heatlhstore.json';
+//import HealthstoreList from '../JSON/Heatlhstore.json';
 import { Card, Image, Rating, Placeholder } from 'semantic-ui-react';
 import './Healthstore.css';
+import AppServices from "../../services/AppServices"
 
+const service = new AppServices()
 
 export default class Healthstore extends Component {
 
   state = {
-    stores:[],
+    healthstore:[],
     loading: true
   } 
+
+  componentDidMount(){
+    service
+    .healthstore()
+    .then(response => this.setState({healthstore: response}))
+    .catch(err => err)
+  }
   
   render() {
     const { loading } = this.state
     setTimeout(() => {
       this.setState({ loading: false })
-    }, 2000)
+    }, 1000)
     return (
       <div className="stores-body">
         <div className="stores">
-        {HealthstoreList.map((e,i)=>{
-          return <section className="store-card">
+        {this.state.healthstore.map((e,i)=>{
+          return <section key={i}  className="store-card">
             <Card>
             {loading ? (
               <Placeholder>

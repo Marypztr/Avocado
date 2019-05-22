@@ -1,27 +1,36 @@
 import React, { Component } from 'react';
 import BottomMenu from '../bottom-menu/BottomMenu';
-import xcercise from '../JSON/Ejercicios.json';
 import { Card, Image, Placeholder } from 'semantic-ui-react';
 import './Exercise.css';
+import AppServices from "../../services/AppServices"
+
+const service = new AppServices()
 
 
-export default class Excercise extends Component {
+export default class Exercise extends Component {
 
   state = {
-    stores:[],
+    exercise:[],
     loading: true
+  }
+
+  componentDidMount(){
+    service
+    .exercise()
+    .then(response => this.setState({exercise: response}))
+    .catch (err => err)
   }
   
   render() {
     const { loading } = this.state
     setTimeout(() => {
       this.setState({ loading: false })
-    }, 2000)
+    }, 1000)
     return (
       <div className="stores-body">
         <div className="stores">
-        {xcercise.map((e,i)=>{
-          return <section className="store-card">
+        {this.state.exercise.map((e,i)=>{
+          return <section key={i}  className="store-card">
             <Card>
             {loading ? (
               <Placeholder>

@@ -29,7 +29,7 @@ export default class Signup extends Component {
             if(res.message) return toastr.error('Bu. Algo salió mal. Intentalo de nuevo. 😣')
             console.log(res)
             toastr.success('Nice!!')
-            window.localStorage.setItem('loggedUser', JSON.stringify(res.data))
+            window.localStorage.setItem('loggedUser', JSON.stringify(res))
             //setTimeout(() => this.setState({ navigate: true }), 2000)
             this.props.history.push('/profile')
           })

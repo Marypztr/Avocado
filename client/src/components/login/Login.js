@@ -34,7 +34,7 @@ export default class Login extends Component {
         .then(response => {
             console.log(response.message)
           if(response.message) return toastr.error('Bu. Algo salió mal. Intentalo de nuevo.')
-          window.localStorage.setItem('loggedUser',JSON.stringify(response.data))
+          window.localStorage.setItem('loggedUser',JSON.stringify(response))
           toastr.success('¡Genial! Bienvenido.')
           this.props.history.push('/profile')
         })
