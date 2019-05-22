@@ -19,7 +19,7 @@ export default class Challenge extends Component {
       <div className="challenge-body">
         <div className="challenges">
         {ChallengeList.map((e,i)=>{
-          return <section className="challenge-card">
+          return <section key={i} className="challenge-card">
             <Card>
             {loading ? (
               <Placeholder>

@@ -4,7 +4,7 @@ const Schema = mongoose.Schema
 const recipeSchema = new Schema(
     {
         recipe: String,
-        ingredientes:[String],
+        ingredientes:[Object],
         photoURL:String,
         
     },{
@@ -13,4 +13,4 @@ const recipeSchema = new Schema(
     }
 )
 
-module.exports = mongoose.model ("Recipes", recipeSchema)
+module.exports = mongoose.model("Recipe", recipeSchema)

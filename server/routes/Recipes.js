@@ -1,11 +1,11 @@
 const express = require ("express")
 const router = express.Router
-const Recipes = require("../models/Recipes")
+const Recipe = require("../models/Recipe")
 const User = require("../models/User")
 
 
 router.get("./UserRecipe"), (req,res,next) =>{
-  Recipes.find()
+  Recipe.find()
   .populate("owner")
   .then(data =>{
     console.log ({ data })
@@ -14,8 +14,8 @@ router.get("./UserRecipe"), (req,res,next) =>{
 }
 
 router.get("./Recipes",(req,res,next)=>{
-  Recipes.find()
-  .then(Recipes =>(Recipes))
+  Recipe.find()
+  .then(Recipe =>(Recipe))
   .catch(err => console.log(err))
 })
 

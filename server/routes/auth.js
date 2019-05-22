@@ -1,7 +1,7 @@
 const router = require('express').Router()
 const passport = require("../handlers/passport")
 const User = require('../models/User')
-const Recipes = require("../models/Recipes")
+const Recipe = require("../models/Recipe")
 
 router.post('/signup', (req, res, next) => {
   User.register(req.body, req.body.password)
@@ -38,8 +38,8 @@ function isLogged (req, res, next) {
 
 router.post('/createRecipe', (req,res,next)=>{
   const recipe = req.body
-  Recipes.create(recipe)
-    .then(Recipes=>res.send(Recipes)
+  Recipe.create(recipe)
+    .then(Recipes=>res.send(Recipe)
     .catch(err => next(err)))
 })
 
