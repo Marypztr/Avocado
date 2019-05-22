@@ -51,12 +51,12 @@ export default class Recipedetail extends Component {
               <img src={e.image} alt="recipe" width="120px" height="120px"/>
             </div>
             <div className="recipe-description">
-              <ul>{e.ingredientes.map((e,i)=>{
-                return <li>
-                <h2>{e.name}</h2>
-                <p>{e.qty}</p>
-                </li>
-              })}</ul>
+              <div className="detail-position">{e.ingredientes.map((e,i)=>{
+                return <div className="details-ingredients">
+                <p className="ingredient-name">{e.name}</p>
+                <p className="ingredient-quantity">{e.qty}</p>
+                </div>
+              })}</div>
             </div>
             <div  className="chart">
               <PieChart width={200} height={200}>

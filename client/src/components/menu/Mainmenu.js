@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Link } from "react-router-dom"
 import { Icon } from 'semantic-ui-react'
 // import  logo2  from '../../../public/images/logoTexto.png'
-import Logout from "../Logout"
 import "./Mainmenu.css"
 import BottomMenu from "../bottom-menu/BottomMenu"
 
@@ -17,7 +16,6 @@ export default class Mainmenu extends Component {
       <div className ="menu-body">
       <section className="barrita-d-menu">
         <div>
-        <Logout/>
           <img className="logo-menu" src="https://res.cloudinary.com/djkjuiyan/image/upload/v1558387997/imgs3P/logoTexto_qb6xcr.png" alt="logo"/>
 
         </div>

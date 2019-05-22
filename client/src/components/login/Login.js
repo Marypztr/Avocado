@@ -5,7 +5,7 @@ import "./login.css"
 import toastr from "toastr"
 
 const service = new AuthService()
-
+ 
 export default class Login extends Component {
     componentWillMount() {
         const user = localStorage.getItem("loggedUser")
@@ -45,7 +45,7 @@ export default class Login extends Component {
     render() {
         return (
             <div className="login-body">
-                <img src="https://res.cloudinary.com/djkjuiyan/image/upload/v1558387997/imgs3P/logoTexto_qb6xcr.png" style={{width: 100}} className="logo2" alt="logo2"/>
+                <img src="https://res.cloudinary.com/djkjuiyan/image/upload/v1558388016/imgs3P/logo1_wzludh.png" style={{width: 100}} className="logo2" alt="logo2"/>
                 <div className="back-image-login"></div>
                 <div className="back-color-login"></div>
                 <div className="Buttons-login">

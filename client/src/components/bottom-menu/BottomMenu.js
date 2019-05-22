@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./BottomMenu.css";
 import { Link } from "react-router-dom";
+import Logout from "../Logout"
 
 export default class BottomMenu extends Component {
   render() {
@@ -9,8 +10,9 @@ export default class BottomMenu extends Component {
         <div>
           <section className="bottom-menu">
             <div>
+              
               <Link className="link" to="/auth">
-                <i className="power off icon" />
+              <Logout/>
                 <p>Logout</p>
               </Link>
             </div>

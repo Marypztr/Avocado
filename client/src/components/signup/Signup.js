@@ -5,7 +5,7 @@ import "./signup.css"
 import toastr from "toastr"
 
 const service = new AuthService()
-
+ 
 export default class Signup extends Component {
     state = {
         form: {
@@ -39,7 +39,7 @@ export default class Signup extends Component {
   render() {
       return (
           <div className="signup-body">
-              <img src="https://res.cloudinary.com/djkjuiyan/image/upload/v1558388015/imgs3P/logo2_af6rww.png" style={{width: 100}} className="logo2" alt="logo2"/>
+              <img src="https://res.cloudinary.com/djkjuiyan/image/upload/v1558388015/imgs3P/logo2_af6rww.png" style={{width: 120}} className="logo2" alt="logo2"/>
               <div className="back-image-signup"></div>
               <div className="back-color-signup"></div>
               <div className="Buttons-signup">

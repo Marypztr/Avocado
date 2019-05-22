@@ -5,6 +5,9 @@ import "./Home.css"
 
 export default class Home extends Component {
   render() {
+        setTimeout(() => {
+          this.props.history.push(`/auth`);
+    }, 2000)
     return (
       <div className="body-home">
         <img src="https://res.cloudinary.com/djkjuiyan/image/upload/v1558388006/imgs3P/logo4_ztirgz.png" style={{width: 100}} className="logo" alt="logo"/>  

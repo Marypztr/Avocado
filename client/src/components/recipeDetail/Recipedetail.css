@@ -3,29 +3,26 @@
   margin-bottom: 50px;
   width: 95%;
   height: 650px;
-  background: rgb(249,252,249);
-  background: radial-gradient(circle, rgba(249,252,249,1) 30%, rgba(181,233,105,1) 100%);    border-radius: 8px;
+  border-radius: 29px;
+  background: rgb(194,249,233);
+  background: linear-gradient(164deg, rgba(194,249,233,1) 18%, rgba(228,217,241,1) 49%, rgba(199,241,229,1) 69%);
 }
-
+ 
 .food-picture {
   margin-top: -40px;
+  
 }
 
 .food-picture img {
   border-radius: 50%;
+  width:120px;
+  height: 120px;
 }
 
 .card-position {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.recipe-description{
-  display: flex;
-  justify-content: center;
-  margin-top:30px;
-
 }
 
 .recipe-card p {
@@ -79,4 +76,29 @@
 
 }
 
+.recipe-description{
+  display: flex;
+  justify-content: space-around;
 
+}
+
+.detail-position{
+  margin-top: 30px;
+}
+
+.details-ingredients{
+  width: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ingredient-name{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ingredient-quantity{
+  font-size: 15px;
+  font-style: italic;
+}

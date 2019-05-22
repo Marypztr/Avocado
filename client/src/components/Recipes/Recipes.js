@@ -3,6 +3,7 @@ import './recipe.css';
 import { Icon } from 'semantic-ui-react'
 import BottomMenu from '../bottom-menu/BottomMenu';
 import Recipe from "../../components/JSON/Recetas"
+import {Link} from "react-router-dom";
 
 // import  logo2  from '../../../public/images/logoTexto.png';
 
@@ -23,10 +24,12 @@ export default class Recipes extends Component {
           {Recipe.map((e,i)=>{
             return <div className="table-position">
               <section className="recipe-list">
-                <div>
-                  <p className="recipe-title">{e.name}</p>
-                  <img className="preview-image" src={e.image} alt="preview" />
-                </div>
+                <Link to="/details">
+                  <div>
+                    <p className="recipe-title">{e.name}</p>
+                    <img className="preview-image" src={e.image} alt="preview" />
+                  </div>
+                </Link>
               </section>
             </div>
           })}

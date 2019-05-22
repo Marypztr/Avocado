@@ -32,7 +32,7 @@
 
 .logo2 {
     width: 80px;
-    height: 130px;
+    height: 150px;
     margin-top: 150px;
 }
 
@@ -57,6 +57,8 @@
 
 .login-button-login {
     background:rgb(36, 47, 99);
+    height: 50px;
+    border-radius: 30px;
     color: white;
 
 }
